@@ -1,0 +1,350 @@
+[
+  {
+    "Items": "Pokedoll",
+    "Item Effects": "Life-size decoy used to escape wild Pokémon. Some people like to collect them."
+  },
+  {
+    "Items": "Repel",
+    "Item Effects": "Most Pokémon won’t come near to you for a whole day. The smell is now machine-washable."
+  },
+  {
+    "Items": "Potion",
+    "Item Effects": "A pocket sized spray potion to relieve the pain and heal bruises."
+  },
+  {
+    "Items": "Super Potion",
+    "Item Effects": "A regular can of concentrated formula spray. This potion can close open wounds and even heal a cracked bone."
+  },
+  {
+    "Items": "Hyper Potion",
+    "Item Effects": "Best value pack. It can be rationed for smaller injuries on the team, or used all at once on a serious wound."
+  },
+  {
+    "Items": "Max Potion",
+    "Item Effects": "A single-use capsule of formula. The Pokémon won’t be able to restore health further until the next day."
+  },
+  {
+    "Items": "Full Restore",
+    "Item Effects": "A single-use capsule of deluxe formula. The Pokémon won’t be able to restore health further until the next day."
+  },
+  {
+    "Items": "Antidote",
+    "Item Effects": "A shot that quickly reduces the fever and relieves the pain. Heals Poison and Poison+."
+  },
+  {
+    "Items": "Awakeneing",
+    "Item Effects": "Sprays a water-based solution to awake a drowsy Pokémon. Heals Sleep."
+  },
+  {
+    "Items": "Burn Heal",
+    "Item Effects": "A powder that douses the fire and aids in the healing of the burnt area. Heals Burn 1, 2, and 3."
+  },
+  {
+    "Items": "Ice Heal",
+    "Item Effects": "Recovers the normal temperature of the Pokémon and heals frost biting. Heals Frozen Solid."
+  },
+  {
+    "Items": "Paralyze Heal",
+    "Item Effects": "This ointment relaxes the muscles and stops the cramping. Heals Paralysis."
+  },
+  {
+    "Items": "Full Heal",
+    "Item Effects": "A superior spray formula that can heal any status problem in a second. Heals all status ailments."
+  },
+  {
+    "Items": "Aspear Berry",
+    "Item Effects": "This sour berry shakes the body and rises its temperature, thawing any ice surrounding it. Heals Frozen Solid."
+  },
+  {
+    "Items": "Cheri Berry",
+    "Item Effects": "Its spicy flavor reinvigorates the muscles and stops the cramping. Heals Paralysis."
+  },
+  {
+    "Items": "Chesto Berry",
+    "Item Effects": "It is difficult to eat, so tough and dry that it will heal the drowsiness. Heals Sleep."
+  },
+  {
+    "Items": "Oran Berry",
+    "Item Effects": "A delicious citric berry that numbs pain away. Heals 1 HP"
+  },
+  {
+    "Items": "Pecha Berry",
+    "Item Effects": "This berry’s sweet pulp will absorb simple poison out of the bloodstream. Heals Poison and Poison+."
+  },
+  {
+    "Items": "Persim Berry",
+    "Item Effects": "A strong flavored berry to snap out of confusion. Heals Confusion."
+  },
+  {
+    "Items": "Rawst Berry",
+    "Item Effects": "Its liquid pulp is ideal to stop fire from spreading and numbs the pain on the area, it is quite bitter, though. Heals Burn 1 and 2."
+  },
+  {
+    "Items": "Sitrus Berry",
+    "Item Effects": "A bigger and sweeter berry from the Oran family but scarcer in the wild. Heals 3 HP or 1 Lethal Damage."
+  },
+  {
+    "Items": "Lum Berry",
+    "Item Effects": "This berry is said to cure everything, it is however very rare to find. Heals all status ailments."
+  },
+  {
+    "Items": "Energy Root",
+    "Item Effects": "A nasty tasting root with mystical properties that can be eaten whole or turned into up to 4 batches of powder if you know how to do it. Equal to a Hyper Potion"
+  },
+  {
+    "Items": "Energy Powder",
+    "Item Effects": "This powder leaves a horrid aftertaste, but at least it stops the pain. Equal to a Super Potion"
+  },
+  {
+    "Items": "Heal Powder",
+    "Item Effects": "A mix of the most foul looking herbs you can find can make this cure-all powder. Heals all status ailments."
+  },
+  {
+    "Items": "Revival Herb",
+    "Item Effects": "It may be its magical properties or just its awful flavor, but this herb will get you back into consciousness numbing all the pain away. Extremely rare to find. Equal to a Max Revive"
+  },
+  {
+    "Items": "Revive",
+    "Item Effects": "A small energy shard that brings a fainted Human or Pokémon back into conciousness and stabilizes their wounds. Recover 1 HP and restores consciousness."
+  },
+  {
+    "Items": "Max Revive",
+    "Item Effects": "A bigger shard that is not available to the public. Restores full HP and restores consciousness."
+  },
+  {
+    "Items": "Berry Juice",
+    "Item Effects": "This mixed drink of various berries is also quite refreshing. Some Pokémon produce it naturally. Restores 2 HP."
+  },
+  {
+    "Items": "Fresh Water",
+    "Item Effects": "Full of electrolytes and just the right amount of sodium, restores the vitality of those who are tired. Restores 4 HP"
+  },
+  {
+    "Items": "Sodapop",
+    "Item Effects": "This Sugary drink gives you a quick shot of energy after being quite tired. Restores 5 HP"
+  },
+  {
+    "Items": "Lemonade",
+    "Item Effects": "The Citric boost and added vitamins make this a favorite after exercise. Restores 6 HP."
+  },
+  {
+    "Items": "Moomoo Milk",
+    "Item Effects": "Found in organic farms, this milk is full of calcium and is right out of the Miltank. Restores 7 HP."
+  },
+  {
+    "Items": "Poke Ball",
+    "Item Effects": "A basic ball for catching Pokémon and carrying heavy items."
+  },
+  {
+    "Items": "Great Ball",
+    "Item Effects": "A sturdier barrier protects the seal allowing an easier catch."
+  },
+  {
+    "Items": "Ultra Ball",
+    "Item Effects": "The best seal in the market to ensure the catch of stronger Pokémon."
+  },
+  {
+    "Items": "Master Ball",
+    "Item Effects": "It is said to be in development by some companies in the world, it is rumored to have a seal so strong it would never break."
+  },
+  {
+    "Items": "Protein",
+    "Item Effects": "A tasty milkshake that aids in the growth of bigger and stronger muscles."
+  },
+  {
+    "Items": "Iron",
+    "Item Effects": "An iron capsule that reduces feebleness and gives you a healthy glow."
+  },
+  {
+    "Items": "Calcium",
+    "Item Effects": "Add this effervescent pills on their drink to help grow stronger bones."
+  },
+  {
+    "Items": "Zinc",
+    "Item Effects": "Zinc capsules help with focus and brain development."
+  },
+  {
+    "Items": "Carbos",
+    "Item Effects": "A healthy syrup that fills you with energy!"
+  },
+  {
+    "Items": "PP Up",
+    "Item Effects": "It is rumored they are just sugar pills. Who really knows?"
+  },
+  {
+    "Items": "HP Up",
+    "Item Effects": "A compendium of vitamins and minerals to help your Pokémon grow as big and healthy as it can be."
+  },
+  {
+    "Items": "Rare Candy",
+    "Item Effects": "This strange candy is made of unknown ingredients but its effects do not stack."
+  },
+  {
+    "Items": "Fire Stone",
+    "Item Effects": "This Stone has a flame inside, it’s hot to the touch. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Thunder Stone",
+    "Item Effects": "It glows in the dark and can be used to power small electronics. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Water Stone",
+    "Item Effects": "Looks like blue glass and can be found at the bottom of the sea. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Leaf Stone",
+    "Item Effects": "It is said that the leaf encrusted to it comes from the tree of life itself. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Moon Stone",
+    "Item Effects": "It is a black stone that turns white and luminescent when the moon shines over it. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Sun Stone",
+    "Item Effects": "A red stone that shines brightly when facing the sun at morning. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Shiny Stone",
+    "Item Effects": "Its crystal-like surface allows you to see a ball of light inside. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Dusk Stone",
+    "Item Effects": "This stone seems to suck the light around into a small dark hole. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Dawn Stone",
+    "Item Effects": "This cerulean stone shines with blinding light for a minute during sunrise. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Ice Stone",
+    "Item Effects": "This arctic blue stone is cold to the touch and seems to chill the air around it. Evolves certain Pokemon"
+  },
+  {
+    "Items": "Black Belt",
+    "Item Effects": "After years of training in martial arts you can proudly wear this. Adds 1 damage to Fighting type moves."
+  },
+  {
+    "Items": "Black Glasses",
+    "Item Effects": "These glasses make you look cool and mean. Adds 1 damage to Dark type moves."
+  },
+  {
+    "Items": "Charcoal",
+    "Item Effects": "A piece of special charcoal that never turns to ash and keeps a steady flame. Adds 1 damage to Fire type moves."
+  },
+  {
+    "Items": "Dragon Fang",
+    "Item Effects": "A Dragon Pokémon that fought fiercely lost this fang. It’s sprit lives within. Adds 1 damage to Dragon type moves."
+  },
+  {
+    "Items": "Hard Stone",
+    "Item Effects": "A Stone that is embed on the body to protect it from impact. Adds 1 damage to Rock type moves."
+  },
+  {
+    "Items": "Magnet",
+    "Item Effects": "This magnet keeps positive and negative charge within itself. Adds 1 damage to Electric type moves."
+  },
+  {
+    "Items": "Metal Coat",
+    "Item Effects": "This chromed coat keeps all surfaces shiny. Adds 1 damage to Steel type moves."
+  },
+  {
+    "Items": "Miracle Seed",
+    "Item Effects": "It is said that this seed came from the same forest as the tree of life. Adds 1 damage to Grass type moves."
+  },
+  {
+    "Items": "Mystic Water",
+    "Item Effects": "A small vessel with water that emits a mysterious glow. Adds 1 damage to Water type moves."
+  },
+  {
+    "Items": "Never-Melt Ice",
+    "Item Effects": "A magical piece of ice that never melts. Adds 1 damage to Ice type moves."
+  },
+  {
+    "Items": "Poison Barb",
+    "Item Effects": "This poison-infused barb is sure to take the toxines into the foe. Adds 1 damage to Poison type moves."
+  },
+  {
+    "Items": "Sharp Beak",
+    "Item Effects": "A sharp metal cover for the beak of your Pokémon. Adds 1 damage to Flying type moves."
+  },
+  {
+    "Items": "Silk Scarf",
+    "Item Effects": "Just a regular everyday normal scarf. Nothing special about it. Adds 1 damage to Normal type moves."
+  },
+  {
+    "Items": "Silver Powder",
+    "Item Effects": "Be careful as this powder is itchy and gives you allergies. Adds 1 damage to Bug type moves."
+  },
+  {
+    "Items": "Soft Sand",
+    "Item Effects": "A pouch with special sand that’s smooth and soft to the touch. Adds 1 damage to Ground type moves."
+  },
+  {
+    "Items": "Spell Tag",
+    "Item Effects": "An old piece of paper that once sealed the spirit of an angry spirit. Adds 1 damage to Ghost type moves."
+  },
+  {
+    "Items": "Twisted Spoon",
+    "Item Effects": "A spoon that bends with the power of the mind. Adds 1 damage to Psychic type moves."
+  },
+  {
+    "Items": "Light Ball",
+    "Item Effects": "A rare ball of light that reacts only to a Pikachu’s energy. Increases Strength and Special by 2."
+  },
+  {
+    "Items": "Lucky Punch",
+    "Item Effects": "A set of boxing gloves specially fit for a Chansey or Blissey’s arms. Increases Strength by 2."
+  },
+  {
+    "Items": "Leek",
+    "Item Effects": "A piece of Leek that allows Farfetch’d to fight swiftly. You can also cook it, since it's apparently delicious. High Crit."
+  },
+  {
+    "Items": "Thick Club",
+    "Item Effects": "A heavy bone piece, only Cubone and Marowak react to the remains. Increases Strength by 2."
+  },
+  {
+    "Items": "Amulet Coin",
+    "Item Effects": "A good luck charm that is said to bring money to your pocket. If your Pokémon wears it, it will bring you fortune. Doubles any earned prize money."
+  },
+  {
+    "Items": "Eviolite",
+    "Item Effects": "A strange lump that boosts the defenses of an un-evolved Pokémon. Increases Defense and Special Defense."
+  },
+  {
+    "Items": "Expert Belt",
+    "Item Effects": "The belt of a seasoned warrior who knows many techniques. Adds 1 damage to Super Effective Moves."
+  },
+  {
+    "Items": "Life Orb",
+    "Item Effects": "A magic orb that grants great power at the cost of the life energy of the weilder. Adds 2 damage & recoil to all attacks"
+  },
+  {
+    "Items": "King's Rock",
+    "Item Effects": "A crown-shaped rock that makes some Pokémon feel like a king, others can’t help but stare in awe at royalty. All moves have 1 Chance Die to Flinch."
+  },
+  {
+    "Items": "Lucky Egg",
+    "Item Effects": "When the Pokémon defeats a foe, it will count as two victories for the purposes of Evolution."
+  },
+  {
+    "Items": "Quick Claw",
+    "Item Effects": "This claw allows you a firm grip on the ground to move faster. Add +2 to your Initiative."
+  },
+  {
+    "Items": "Razor Claw",
+    "Item Effects": "This sharp claw can pierce through tough surfaces with ease. High Crit."
+  },
+  {
+    "Items": "Razor Fang",
+    "Item Effects": "A big pair of fangs that make you look like a vampire. All moves have 1 Chance Die to Flinch."
+  },
+  {
+    "Items": "Rocky Helmet",
+    "Item Effects": "A helmet covered with sharp edges and rocks. Deal 1 damage to a foe attacking you with a Non-ranged Physical Attack."
+  },
+  {
+    "Items": "Wide Lens",
+    "Item Effects": "A magnifying glass used to see the small details. All moves have +1 Accuracy."
+  }
+]

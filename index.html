@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pokeroll – Trainer Sheet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-gengar">
+<div id="io-bar" style="margin-bottom: 12px;">
+  <button id="btn-export-trainer">Trainer exportieren</button>
+  <input type="file" id="import-trainer-file" style="display:none" accept=".json">
+  <button id="btn-import-trainer">Trainer importieren</button>
+</div>
+
+<header>
+  <h1>Pokeroll Trainer Sheet</h1>
+  <label>Theme:
+    <select id="theme-select">
+      <option value="theme-gengar">Gengar (Lila)</option>
+      <option value="theme-pikachu">Pikachu (Gelb)</option>
+      <option value="theme-charizard">Glurak (Rot/Orange)</option>
+      <option value="theme-bulbasaur">Bisasam (Grün)</option>
+      <option value="theme-squirtle">Shiggy (Blau)</option>
+      <option value="theme-jigglypuff">Pummeluff (Pink)</option>
+      <option value="theme-umbreon">Nachtara (Schwarz / Gelb)</option>
+    </select>
+  </label>
+</header>
+
+<div id="layout">
+  <aside id="sidebar"></aside>
+  <main id="detail-view">
+    <h2>Keine Auswahl</h2>
+    <p>Klicke auf die Trainerkarte oder eines der Pokémon links.</p>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

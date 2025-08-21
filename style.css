@@ -1,0 +1,769 @@
+/* ===== Themes ===== */
+body.theme-gengar {
+  --bg-main: #3f2a56;
+  --bg-card: #7e57c2;
+  --text-color: #fff;
+  --input-bg: #543a91;
+  --input-border: #a68ede;
+  --button-bg: #9c6ade;
+  --button-border: #6d3ecf;
+  --button-hover: #b088ff;
+}
+body.theme-pikachu {
+  --bg-main: #f2e25b;
+  --bg-card: #fff176;
+  --text-color: #222;
+  --input-bg: #fff59d;
+  --input-border: #fbc02d;
+  --button-bg: #fdd835;
+  --button-border: #fbc02d;
+  --button-hover: #ffeb3b;
+}
+body.theme-charizard {
+  --bg-main: #8b1e1e;
+  --bg-card: #e65100;
+  --text-color: #fff;
+  --input-bg: #ff8a65;
+  --input-border: #ff7043;
+  --button-bg: #fb8c00;
+  --button-border: #ef6c00;
+  --button-hover: #ffa726;
+}
+body.theme-bulbasaur {
+  --bg-main: #187e0c;
+  --bg-card: #42a046;
+  --text-color: #000000;
+  --input-bg: #a5d6a7;
+  --input-border: #388e3c;
+  --button-bg: #66bb6a;
+  --button-border: #2e7d32;
+  --button-hover: #98ee99;
+}
+
+body.theme-squirtle {
+  --bg-main: #2a5271;
+  --bg-card: #3a82a3;
+  --text-color: #faf8f8;
+  --input-bg: #5d9ab6;
+  --input-border: #0288d1;
+  --button-bg: #29b6f6;
+  --button-border: #0277bd;
+  --button-hover: #4fc3f7;
+}
+
+body.theme-jigglypuff {
+  --bg-main: #d36cae;
+  --bg-card: #f48fb1;
+  --text-color: #ffffff;
+  --input-bg: #f8bbd0;
+  --input-border: #ad1457;
+  --button-bg: #ef5782;
+  --button-border: #880e4f;
+  --button-hover: #f06292;
+}
+
+body.theme-umbreon {
+  --bg-main: #1b1b1b;
+  --bg-card: #4a4a4a;
+  --text-color: #fff600;
+  --input-bg: #2c2c2c;
+  --input-border: #ffeb3b;
+  --button-bg: #7a6402;
+  --button-border: #fbc02d;
+  --button-hover: #fff176;
+}
+
+/* ===== Global Layout ===== */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-color);
+}
+header {
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+#layout {
+  display: flex;
+  height: calc(100vh - 50px);
+  min-height: 0;
+  gap: 8px;
+}
+
+aside#sidebar {
+  flex: 0 0 25%;
+  overflow-y: auto;
+  min-height: 0;
+  background: var(--bg-card);
+  border-radius: 8px;
+  padding: 8px;
+  padding-bottom: 50px;
+  
+}
+
+main#detail-view {
+  flex: 1 1 75%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: var(--bg-card);
+  border-radius: 8px;
+  padding-bottom: 10px;
+  width: 75%;
+}
+
+.detail-content {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 20px 20px 40px 20px;
+  box-sizing: border-box;
+}
+
+/* ===== Sidebar Karten ===== */
+.trainer-summary,
+.pokemon-summary {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+.trainer-summary:hover,
+.pokemon-summary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar img {
+  width: 48px;
+  height: 48px;
+}
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+.pokemon-name-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.pokemon-hp {
+  font-size: 0.85em;
+}
+.pokemon-atks {
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.poke-atk {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+/* ===== Badges Typfarben ===== */
+.type-badge {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 0 3px 2px 0;
+  display: inline-block;
+}
+.type-Normal {
+  background: #a8a77a;
+  color: #000;
+}
+.type-Fire {
+  background: #ee8130;
+}
+.type-Water {
+  background: #6390f0;
+}
+.type-Electric {
+  background: #f7d02c;
+  color: #000;
+}
+.type-Grass {
+  background: #7ac74c;
+  color: #000;
+}
+.type-Ice {
+  background: #96d9d6;
+  color: #000;
+}
+.type-Fighting {
+  background: #c22e28;
+}
+.type-Poison {
+  background: #a33ea1;
+}
+.type-Ground {
+  background: #e2bf65;
+  color: #000;
+}
+.type-Flying {
+  background: #a98ff3;
+}
+.type-Psychic {
+  background: #f95587;
+}
+.type-Bug {
+  background: #a6b91a;
+  color: #000;
+}
+.type-Rock {
+  background: #b6a136;
+  color: #000;
+}
+.type-Ghost {
+  background: #735797;
+}
+.type-Dragon {
+  background: #6f35fc;
+}
+.type-Dark {
+  background: #705746;
+}
+.type-Steel {
+  background: #b7b7ce;
+  color: #000;
+}
+.type-Fairy {
+  background: #d685ad;
+}
+
+/* ===== Stat-Gruppen ===== */
+.stat-group {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.03);
+}
+.stat-group h4 {
+  margin: 0 0 8px;
+  font-size: 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 4px;
+}
+.stats-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.stat-row {
+  flex: 1 1 140px;
+}
+.stat-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+.stat-btn-group {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+}
+.stat-btn {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #444;
+  background: #eee;
+  cursor: pointer;
+}
+.stat-btn.min {
+  background: #8fce8f;
+}
+.stat-btn.active:not(.min) {
+  background: #3b4cca;
+}
+
+/* ===== Detail Flex Stats/Effekt ===== */
+.detail-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.detail-column {
+  flex: 1 1 300px;
+  min-width: 280px;
+}
+
+/* ===== Attacken-Karten fix ===== */
+.attack-card {
+  width: calc(50% - 12px);
+  height: 160px;
+  border-radius: 6px;
+  margin: 6px;
+  padding: 8px;
+  box-sizing: border-box;
+  vertical-align: top;
+  overflow: hidden;
+  display: inline-block;
+}
+.attack-card-inner {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 4px;
+  box-sizing: border-box;
+}
+@media (max-width: 900px) {
+  .attack-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 8px 0;
+  }
+}
+
+/* ===== Attacke Typfarben Karten ===== */
+.attack-card.bg-Normal {
+  background: #a8a77a;
+  color: #2a2a1a;
+}
+.attack-card.bg-Fire {
+  background: #ee8130;
+}
+.attack-card.bg-Water {
+  background: #6390f0;
+}
+.attack-card.bg-Electric {
+  background: #f7d02c;
+  color: #2d2a04;
+}
+.attack-card.bg-Grass {
+  background: #7ac74c;
+  color: #264309;
+}
+.attack-card.bg-Ice {
+  background: #96d9d6;
+  color: #164342;
+}
+.attack-card.bg-Fighting {
+  background: #c22e28;
+}
+.attack-card.bg-Poison {
+  background: #a33ea1;
+}
+.attack-card.bg-Ground {
+  background: #e2bf65;
+  color: #372d05;
+}
+.attack-card.bg-Flying {
+  background: #a98ff3;
+}
+.attack-card.bg-Psychic {
+  background: #f95587;
+}
+.attack-card.bg-Bug {
+  background: #a6b91a;
+  color: #2f3802;
+}
+.attack-card.bg-Rock {
+  background: #b6a136;
+  color: #3d3401;
+}
+.attack-card.bg-Ghost {
+  background: #735797;
+}
+.attack-card.bg-Dragon {
+  background: #6f35fc;
+}
+.attack-card.bg-Dark {
+  background: #705746;
+}
+.attack-card.bg-Steel {
+  background: #b7b7ce;
+  color: #2f2f3b;
+}
+.attack-card.bg-Fairy {
+  background: #d685ad;
+}
+
+/* ===== Typfarben auch im Dropdown sichtbar ===== */
+select.attack-select option.type-Normal {
+  background: #a8a77a;
+  color: #000;
+}
+select.attack-select option.type-Fire {
+  background: #ee8130;
+  color: #fff;
+}
+select.attack-select option.type-Water {
+  background: #6390f0;
+  color: #fff;
+}
+select.attack-select option.type-Electric {
+  background: #f7d02c;
+  color: #000;
+}
+select.attack-select option.type-Grass {
+  background: #7ac74c;
+  color: #000;
+}
+select.attack-select option.type-Ice {
+  background: #96d9d6;
+  color: #000;
+}
+select.attack-select option.type-Fighting {
+  background: #c22e28;
+  color: #fff;
+}
+select.attack-select option.type-Poison {
+  background: #a33ea1;
+  color: #fff;
+}
+select.attack-select option.type-Ground {
+  background: #e2bf65;
+  color: #000;
+}
+select.attack-select option.type-Flying {
+  background: #a98ff3;
+  color: #fff;
+}
+select.attack-select option.type-Psychic {
+  background: #f95587;
+  color: #fff;
+}
+select.attack-select option.type-Bug {
+  background: #a6b91a;
+  color: #000;
+}
+select.attack-select option.type-Rock {
+  background: #b6a136;
+  color: #000;
+}
+select.attack-select option.type-Ghost {
+  background: #735797;
+  color: #fff;
+}
+select.attack-select option.type-Dragon {
+  background: #6f35fc;
+  color: #fff;
+}
+select.attack-select option.type-Dark {
+  background: #705746;
+  color: #fff;
+}
+select.attack-select option.type-Steel {
+  background: #b7b7ce;
+  color: #000;
+}
+select.attack-select option.type-Fairy {
+  background: #d685ad;
+  color: #fff;
+}
+
+/* ===== Inputs & Buttons ===== */
+input,
+select,
+textarea {
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  color: var(--text-color);
+}
+button {
+  background: var(--button-bg);
+  border: 1px solid var(--button-border);
+  color: var(--text-color);
+}
+button:hover {
+  background: var(--button-hover);
+}
+.remove-pokemon-btn {
+  background: #d22d2d;
+  width: 96%;
+  margin: 30px 2% 8px 2%;
+}
+
+.evolution-info {
+  margin-top: 8px;
+  padding: 6px 8px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  font-style: italic;
+}
+
+.trainer-detail .form-section {
+  border: 1px solid rgba(180, 180, 255, 0.15);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 10px 14px 2px 14px;
+}
+.trainer-detail legend {
+  font-size: 1.1em;
+  font-weight: bold;
+  
+  padding: 2px 8px;
+}
+.trainer-detail .form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+  gap: 10px;
+}
+
+.trainer-detail label {
+  min-width: 75px;
+}
+.nature-confidence {
+  margin-left: 12px;
+  color: #ffffff;
+  font-size: 0.96em;
+}
+.formula-hint {
+  color: #8c8c9c;
+  font-size: 0.95em;
+  margin-left: 0.7em;
+}
+
+#achievements-list {
+  padding: 3px 8px 8px 2px;
+}
+.achv-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  gap: 6px;
+}
+.achv-row label {
+  cursor: pointer;
+}
+
+.item-row,
+.potion-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.item-row label,
+.potion-row label {
+  flex: 1 0 120px;
+}
+.item-qty-input {
+  width: 50px;
+  text-align: right;
+}
+.form-subsection {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 8px 0 12px 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.bag-potions {
+  background: #e5e6d8;
+  border: 2px solid #e9e4cd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 6px 8px;
+  color: #000;
+  font-weight: bold;
+}
+.potion-row label {
+  font-weight: bold;
+  color: #a2700c;
+  display: block;
+}
+
+.actions-counter {
+  margin: 10px 0 12px 0;
+}
+.actions-box-group {
+  display: flex;
+  gap: 6px;
+  margin-top: 4px;
+}
+.action-box {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #444;
+  background: #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.action-box.active {
+  background: #1976cf;
+  border-color: #1976cf;
+}
+
+.pain-penalties {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pain-box {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  border: 2px solid #d23f3f;
+  border-radius: 3px;
+  background: #eee;
+}
+.pain-box.active {
+  background: #d23f3f;
+}
+
+.pokemon-detail .form-section {
+  border: 1px solid rgba(180, 180, 255, 0.15);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 10px 14px 2px 14px;
+}
+.pokemon-detail legend {
+  font-size: 1.1em;
+  font-weight: bold;
+  
+  padding: 2px 8px;
+}
+.pokemon-detail .form-row {
+  display: flex;
+  align-items: normal;
+  margin-bottom: 9px;
+  gap: 10px;
+}
+
+.pokemon-detail .fieldset-col{
+  flex: 1;
+}
+
+.pokemon-detail label {
+  min-width: 80px;
+}
+
+.pokemon-detail span:not(.type-badge, .pain-penalties, .pain-box) {
+  min-width: 80px;
+}
+
+.form-row select,
+.form-row input[type="number"],
+.form-row input[type="text"] {
+  flex: 1;
+  max-width: 160px;
+  box-sizing: border-box;
+}
+
+/* Container der Nutzung */
+.potion-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 8px;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+/* Label mit Icon und Name */
+.potion-row label {
+  flex: 1 1 auto;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1rem;
+}
+
+/* Eingabefeld für Menge */
+.potion-row input[type="number"] {
+  width: 60px;
+  padding: 4px 6px;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* Buttons – Entfernen und Benutzen */
+.potion-row button {
+  padding: 4px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  flex-shrink: 0;
+}
+
+.potion-row button:hover {
+  background-color: #0056b3;
+}
+
+/* Anzeige der Nutzung */
+.potion-row .usage-info {
+  font-size: 0.85rem;
+  color: #555;
+  font-style: italic;
+  min-width: 120px;
+  text-align: right;
+  user-select: none;
+  flex-shrink: 0;
+  background: #e1f0ff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  border: 1px solid #99c2ff;
+  box-shadow: inset 0 0 4px #b3d4ff;
+}
+
+/* Optional: Farbe verändern, wenn Maximum erreicht */
+.potion-row .usage-info.warning {
+  background: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+  box-shadow: inset 0 0 4px #ffecb5;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background: var(--bg-card);
+  color: var(--text-color);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* über dem Bild */
+  left: 50%;
+  margin-left: -80px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  overflow-wrap: break-word;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 0.8;
+}

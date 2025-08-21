@@ -1,0 +1,1022 @@
+[
+  {
+    "Abilities": "Adaptability",
+    "Ability Effect": "Whenever this Pokémon uses a damaging move that matches its type, add 1 dice to the damage pool of that attack."
+  },
+  {
+    "Abilities": "Aerilate",
+    "Ability Effect": "Normal-Type Attacks that the Pokémon uses will deal damage as if they were Flying-Type, affecting STAB, weakness and resistance. Add 1 Dice of damage to Flying moves."
+  },
+  {
+    "Abilities": "Aftermath",
+    "Ability Effect": "If this Pokémon faints due to a Non-Ranged Physical Attack, the user of that attack is dealt 2 Damage."
+  },
+  {
+    "Abilities": "Air Lock",
+    "Ability Effect": "Negate all the effects of a Weather Condition in the field. If there are no weather conditions in the field, they cannot be activated by Moves or Abilities. If one is already active, it does not disappear but provides no effects."
+  },
+  {
+    "Abilities": "Analytic",
+    "Ability Effect": "If this Pokémon has a lower initiative that its target, Add 1 Dice to all of its Damage Pools."
+  },
+  {
+    "Abilities": "Anger Point",
+    "Ability Effect": "If a foe lands a Critical Hit on this Pokémon, increase 3 Points to its Strength Attribute."
+  },
+  {
+    "Abilities": "Anticipation",
+    "Ability Effect": "If a foe knows a move that would deal Lethal or Super Effective damage against this Pokémon, it will alert its Trainer."
+  },
+  {
+    "Abilities": "Arena Trap",
+    "Ability Effect": "Foe Pokémon on the ground become Blocked, they cannot escape or be switched out for as long as this Pokémon is in the field."
+  },
+  {
+    "Abilities": "Aroma Veil",
+    "Ability Effect": "User and Allies are immune to the effects of the moves: Taunt, Torment, Attract, Disable, Encore, and Heal Block."
+  },
+  {
+    "Abilities": "Aura Break",
+    "Ability Effect": "Invert the effects that the Abilities Dark Aura and Fairy Aura have on their users. If said Abilities would increase a Dice Pool for their user, reduce it instead."
+  },
+  {
+    "Abilities": "Bad Dreams",
+    "Ability Effect": "At the end of the Round, deal 1 Damage to anyone in the battlefield that has the Sleep Status Condition."
+  },
+  {
+    "Abilities": "Ball Fetch",
+    "Ability Effect": "Whenever you throw a pokéball to a wild Pokémon, if the roll for catching it is unsuccessful, the pokéball will not break, this Pokémon will bring it back to you at the end of the scene instead."
+  },
+  {
+    "Abilities": "Battery",
+    "Ability Effect": "Increase 1 point to the Special of all Ally Pokémon in Range. Ally Pokémon get 1 Bonus Dice to all their Special Move's Damage Pool."
+  },
+  {
+    "Abilities": "Battle Armor",
+    "Ability Effect": "If a Foe lands a Critical Hit on this Pokémon, it will not get any Bonus Dice for it."
+  },
+  {
+    "Abilities": "Battle Bond",
+    "Ability Effect": "AFTER a foe is defeated by this Pokémon, if it has a Loyalty score of 5, change its Form into “Battle-Bond Form” (BBF) until the end of the scene or until it or its Trainer faints. Only one Pokémon per party may have this Ability. Pokémon with this Ability can’t hold a Mega-Stone."
+  },
+  {
+    "Abilities": "Beast Boost",
+    "Ability Effect": "If a foe faints because of an attack dealt by this Ultra-Beast, Increase 1 Point to its Attribute with highest limit. Up to 3 points can be increased this way. Only Ultra-Beasts might have this Ability. Beast Boost can’t be swapped or copied."
+  },
+  {
+    "Abilities": "Berserk",
+    "Ability Effect": "When this Pokémon's HP is half or less, Increase its Special Attribute by 1."
+  },
+  {
+    "Abilities": "Big Pecks",
+    "Ability Effect": "This Pokémon cannot have its Defense reduced."
+  },
+  {
+    "Abilities": "Blaze",
+    "Ability Effect": "When this Pokémon is low on HP, its Fire-Type Moves get dice added to their Damage Pool equal to their Pain Penalties. (e.g. -2 Pain Penalties will add 2 Dice to the damage pool)."
+  },
+  {
+    "Abilities": "Bulletproof",
+    "Ability Effect": "Reduce by 1 all damage from Special and Ranged Physical Attacks done to this Pokémon."
+  },
+  {
+    "Abilities": "Cheek Pouch",
+    "Ability Effect": "This Pokémon restores 2 HP whenever it eats a berry with no HP healing effect. (e.g. Pecha Berry, Lum Berry)"
+  },
+  {
+    "Abilities": "Chlorophyll",
+    "Ability Effect": "If Sunny Weather is in effect, Increase 2 Points to this Pokémon's Dexterity Attribute."
+  },
+  {
+    "Abilities": "Clear Body",
+    "Ability Effect": "Other Pokémon cannot Increase or Decrease the Attributes of this Pokémon. This Pokémon can still Increase or Decrease its own Attributes."
+  },
+  {
+    "Abilities": "Cloud Nine",
+    "Ability Effect": "Negate the effects of Weather Conditions on this Pokémon."
+  },
+  {
+    "Abilities": "Color Change",
+    "Ability Effect": "When this Pokémon is deal damage it will temporarily change its type to match the type of the move that just hit it. The effect ends if the Pokémon is removed from the battle."
+  },
+  {
+    "Abilities": "Comatose",
+    "Ability Effect": "The Pokémon permanently has the \"\"Sleep\"\" Status Condition but it is immune to its effects. This Pokémon can't be inflicted other Status Conditions. Moves and Abilities affecting Asleep Pokémon still affect it."
+  },
+  {
+    "Abilities": "Competitive",
+    "Ability Effect": "The first time this Pokémon gets an Attribute reduced by a foe during a battle, Increase 2 Points to its Special."
+  },
+  {
+    "Abilities": "Compound Eyes",
+    "Ability Effect": "This Pokémon gets 2 Bonus Dice on the Accuracy Pool of any move with Reduced Accuracy."
+  },
+  {
+    "Abilities": "Contrary",
+    "Ability Effect": "If anything would Decrease an Attribute of this Pokémon, Increase it instead. If anything would Increase an Attribute of this Pokémon, Decrease it instead."
+  },
+  {
+    "Abilities": "Corrosion",
+    "Ability Effect": "Ignore any immunity the foe has to Poison-Type Damage and/or to be inflicted Poison and Badly Poisoned Status Ailments."
+  },
+  {
+    "Abilities": "Cotton Down",
+    "Ability Effect": "Is Pokémon is hit with a Non-Ranged Physical Attack, reduce the speed of all Pokémon close to it. (Allies and foes alike at storyteller’s discretion)"
+  },
+  {
+    "Abilities": "Cursed Body",
+    "Ability Effect": "Whenever this Pokémon is dealt damage with a move, Roll 3 Chance Dice to Disable that move. More than one move may be disabled this way."
+  },
+  {
+    "Abilities": "Cute Charm",
+    "Ability Effect": "If a foe hits this Pokémon with a Non-Ranged Physical Attack, roll 3 Chance Dice to make the foe fall in Love."
+  },
+  {
+    "Abilities": "Damp",
+    "Ability Effect": "No ally or foe will be able to use the moves Explosion or Self-Destruct in an area around this Pokémon."
+  },
+  {
+    "Abilities": "Dancer",
+    "Ability Effect": "Whenever a Pokémon uses a Move with the \"\"Dance\"\" (ie. Dragon Dance, Petal Dance etc.) this Pokémon can use the same Move immediately after, if it still has actions available."
+  },
+  {
+    "Abilities": "Dark Aura",
+    "Ability Effect": "Increase 2 dice to all Damage Pools of Dark-Type Moves of all Pokémon in the field. This effect does not stack. Pokémon and Trainers on the field will not cooperate with each other."
+  },
+  {
+    "Abilities": "Dauntless Shield",
+    "Ability Effect": "Whenever this Pokémon enters battle, Increase 2 Points to its Defense. Outside of battle, this Pokémon is immune to physical damage."
+  },
+  {
+    "Abilities": "Dazzling",
+    "Ability Effect": "Foes cannot use Priority Moves against this Pokémon."
+  },
+  {
+    "Abilities": "Defeatist",
+    "Ability Effect": "If this Pokémon is at half or less of its total HP, roll this Pokémon's Loyalty every action, if the roll fails. Reduce 2 Points to its Strength and Special Attributes for that action. If it's successful it may keep its attributes unchanged."
+  },
+  {
+    "Abilities": "Defiant",
+    "Ability Effect": "The first time this Pokémon has an Attribute reduced during a battle, Increase 2 Points to its Strength."
+  },
+  {
+    "Abilities": "Delta Stream",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Strong Wind Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate, The Pokémon with highest Will might keep the dominant weather)"
+  },
+  {
+    "Abilities": "Desolate Land",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Harsh Sunlight Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate, The Pokémon with highest Will might keep the dominant weather)"
+  },
+  {
+    "Abilities": "Disguise",
+    "Ability Effect": "The first time this Pokémon would receive damage during a battle, reduce that damage to zero. Entry Hazards, Weather Conditions and Status Ailments do not trigger this Ability."
+  },
+  {
+    "Abilities": "Download",
+    "Ability Effect": "When this Pokémon comes out it will scan its foes and provide information about them. It will then Increase 1 Point to either Strength or Special Attribute at Storyteller's discretion."
+  },
+  {
+    "Abilities": "Drizzle",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Rain Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate the Pokémon with higher Special will keep the dominant weather)."
+  },
+  {
+    "Abilities": "Drought",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Sunny Weather. The effects end when the Pokémon leaves the battle. (In case of a stalemate the Pokémon with the higher Special will keep the dominant weather)."
+  },
+  {
+    "Abilities": "Dry Skin",
+    "Ability Effect": "If Sunny Weather is in effect, this Pokémon will receive 1 damage at the end of the each round. Fire attacks will deal 1 additional Damage to this Pokémon. Water attacks may heal 1 HP to this Pokémon instead of dealing damage."
+  },
+  {
+    "Abilities": "Early Bird",
+    "Ability Effect": "The time this Pokémon would be asleep is reduce by half, it will only need to score 2 successes on its Insight roll to wake up in battle. This effect does not apply for the move \"\"Rest\"\"."
+  },
+  {
+    "Abilities": "Effect Spore",
+    "Ability Effect": "If hit by a Non-Ranged Physical Attack, the Pokémon rolls 3 Chance Dice to Poison, Paralyze or Sleep the foe at random."
+  },
+  {
+    "Abilities": "Electric Surge",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of the Move Electric Terrain. (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain)"
+  },
+  {
+    "Abilities": "Emergency Exit",
+    "Ability Effect": "Whenever this Pokémon reaches half of its total HP, it will switch out to its Pokéball, sending an Ally to take its place. If there is no Ally, the battle may end. This Ability's effect is not affected by Block."
+  },
+  {
+    "Abilities": "Fairy Aura",
+    "Ability Effect": "Increase 2 dice to all Damage Pools of Fairy-Type Moves of all Pokémon in the field. This effect does not stack. Pokémon and Trainers on the field will not attack the user of this Ability."
+  },
+  {
+    "Abilities": "Filter",
+    "Ability Effect": "If a foe uses a move that would deal Super Effective Damage to this Pokémon, reduce by 1 the total Damage from that attack."
+  },
+  {
+    "Abilities": "Flame Body",
+    "Ability Effect": "When hit by a Non-Ranged Attack, this Pokémon roll 3 Chance Dice to burn the foe."
+  },
+  {
+    "Abilities": "Flare Boost",
+    "Ability Effect": "If this Pokémon gets any Burn condition, Increase 2 points to its Special attribute."
+  },
+  {
+    "Abilities": "Flash Fire",
+    "Ability Effect": "The first time this Pokémon is hit by a Fire-Type move, add 1 Bonus dice to the Damage Pool of Fire-Type Moves this Pokémon uses until the end of the scene. Fire-Type moves do not deal damage to this Pokémon."
+  },
+  {
+    "Abilities": "Flower Gift",
+    "Ability Effect": "If Sunny Weather is in effect, Increase 2 Points to the Strength and Sp. Defense Attributes of the user and its allies."
+  },
+  {
+    "Abilities": "Flower Veil",
+    "Ability Effect": "User and allies can't have their Attributes reduced. User and allies can't have any Status Condition inflicted on them. Previously inflicted Attribute reductions and/or ailments remain."
+  },
+  {
+    "Abilities": "Fluffy",
+    "Ability Effect": "Reduce by 2 the Damage dealt to this Pokémon by All Physical Attacks. Increase by 2 the Damage dealt to this Pokémon by Fire-Type Attacks."
+  },
+  {
+    "Abilities": "Forecast",
+    "Ability Effect": "The Type of this Pokémon will change depending on the active weather. Fire under Sun, Water under Rain, Ice under Hail and Rock under Sand."
+  },
+  {
+    "Abilities": "Forewarn",
+    "Ability Effect": "In battle, this Pokémon will warn about the strongest move one of its foes has. Storyteller has to reveal it to the trainer of this Pokémon in secret."
+  },
+  {
+    "Abilities": "Friend Guard",
+    "Ability Effect": "If this Pokémon is hit by a move perd by an ally, Reduce by 2 the damage dealt to it."
+  },
+  {
+    "Abilities": "Frisk",
+    "Ability Effect": "When this Pokemon enters the field, the Storyteller must reveal the held item of one foe to this Pokemon's trainer"
+  },
+  {
+    "Abilities": "Full Metal Body",
+    "Ability Effect": "Other Pokémon cannot Decrease the Attributes of this Pokémon. This Pokémon can still Decrease its own Attributes."
+  },
+  {
+    "Abilities": "Fur Coat",
+    "Ability Effect": "Reduce by 2 the Damage dealt to this Pokémon by All Physical Attacks."
+  },
+  {
+    "Abilities": "Gale Wings",
+    "Ability Effect": "Add \"\"Priority\"\" to all Flying-Type Moves of this Pokémon."
+  },
+  {
+    "Abilities": "Galvanize",
+    "Ability Effect": "Normal-Type Attacks that the Pokémon uses will deal damage as if they were Electric-Type, affecting STAB, weakness and resistance. Add 1 Dice of damage to Electric moves."
+  },
+  {
+    "Abilities": "Gluttony",
+    "Ability Effect": "This Pokémon will eat any food or medicine without negative effects."
+  },
+  {
+    "Abilities": "Gooey",
+    "Ability Effect": "The first time an opponent hits this Pokémon with a Non-Ranged Physical Attack, reduce 1 Point to its Dexterity Attribute."
+  },
+  {
+    "Abilities": "Gorilla Tactics",
+    "Ability Effect": "At the start of the fight, choose a Move. Increase 1 point to this Pokémon’s Strength Attribute, it can only perform the chosen Move but it may Evade every Round. This effect resets if the Pokémon is recalled from battle."
+  },
+  {
+    "Abilities": "Grass Pelt",
+    "Ability Effect": "If the effects of the move Grassy Terrain are active, Increase 2 Points to this Pokémon's Defense Attribute."
+  },
+  {
+    "Abilities": "Grassy Surge",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of the Move Grassy Terrain. (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain)"
+  },
+  {
+    "Abilities": "Gulp Missile",
+    "Ability Effect": "If this Pokémon uses the Moves Surf or Dive, it will change forms after dealing damage. “Gulping Form” if it has more than half HP remaining, “Gorging Form” if it has half or less HP remaining. If the Pokémon is dealt damage by a foe when it is in any of this Forms, deal 2 Dice of Damage and an effect to it. Return this Pokémon to its regular form afterwards."
+  },
+  {
+    "Abilities": "Guts",
+    "Ability Effect": "While affected by any Status Condition, Increase 2 Points to this Pokémon's Strength Attribute."
+  },
+  {
+    "Abilities": "Harvest",
+    "Ability Effect": "If this Pokémon uses a berry as a held item during a fight, the berry will grow back at the end of the day."
+  },
+  {
+    "Abilities": "Healer",
+    "Ability Effect": "If an Ally in the battlefield has a Status Ailment, at the end of the round this Pokémon rolls 3 Chance Dice to heal it."
+  },
+  {
+    "Abilities": "Heatproof",
+    "Ability Effect": "Burn 1 deals no Damage to this Pokémon. If this Pokémon is hit by a Fire-Type Attack, Reduce the damage dealt by 2."
+  },
+  {
+    "Abilities": "Heavy Metal",
+    "Ability Effect": "Moves with damage based on weight get their damage pool modified accordingly."
+  },
+  {
+    "Abilities": "Honey Gather",
+    "Ability Effect": "A small barrel of honey can be sold for $50. Honey attracts wild Pokémon and feeding a Pokémon with it will make it happy."
+  },
+  {
+    "Abilities": "Huge Power",
+    "Ability Effect": "This Pokémon is able to lift up to double the weight it should be able to according to the Strength Chart (p. 369). This ability stacks with moves like Strength."
+  },
+  {
+    "Abilities": "Hunger Switch",
+    "Ability Effect": "At the End of the Round, switch this Pokémon’s form. Only Morpeko may have this ability. This ability cannot be copied or switched."
+  },
+  {
+    "Abilities": "Hustle",
+    "Ability Effect": "This Pokémon gets an extra Reduced Accuracy and 2 Extra Dice to the damage pool for all its Physical Attacks."
+  },
+  {
+    "Abilities": "Hydration",
+    "Ability Effect": "When Rain weather is in effect, this Pokémon will cure any status ailment it has at the end of the round."
+  },
+  {
+    "Abilities": "Hyper Cutter",
+    "Ability Effect": "This Pokémon cannot have its Strength Attribute reduced by any means."
+  },
+  {
+    "Abilities": "Ice Body",
+    "Ability Effect": "If Hail Weather is in effect you may restore 1 HP to this Pokémon at the end of the round. This Pokémon is immune to damage from Hail Weather."
+  },
+  {
+    "Abilities": "Ice Face",
+    "Ability Effect": "The Pokémon has 2 extra HP when it is on “Ice Face form”. If the Ice receives 2 damage, change the Pokémon’s form to “No-Ice Form”. To restore “Ice Face Form” the Pokémon must be out one whole Round while Hail weather is active."
+  },
+  {
+    "Abilities": "Ice Scales",
+    "Ability Effect": "Reduce by 2 the Damage dealt to this Pokémon by All Special Attacks."
+  },
+  {
+    "Abilities": "Illuminate",
+    "Ability Effect": "Increases the chance of random Wild Pokémon encounters."
+  },
+  {
+    "Abilities": "Illusion",
+    "Ability Effect": "When this Pokémon comes out, it will have the form of another Pokémon in the party, it will regain its original form if it receives damage. When taking a human form it cannot speak and its tail may remain visible."
+  },
+  {
+    "Abilities": "Immunity",
+    "Ability Effect": "Poison and Badly Poison Statuses deal no damage to this Pokémon."
+  },
+  {
+    "Abilities": "Imposter",
+    "Ability Effect": "As soon as it enters battle, this Pokémon will be under the effects of the move Transform."
+  },
+  {
+    "Abilities": "Infiltrator",
+    "Ability Effect": "Shield Moves, Safeguard, Substitute, Light Screen, and Reflect are ignored by this Pokémon."
+  },
+  {
+    "Abilities": "Innards Out",
+    "Ability Effect": "If an attack would faint this Pokémon, it inflicts damage on the foe equal to whatever remaining HP it had."
+  },
+  {
+    "Abilities": "Inner Focus",
+    "Ability Effect": "This Pokémon does not Flinch."
+  },
+  {
+    "Abilities": "Insomnia",
+    "Ability Effect": "This Pokémon is not affected by the Sleep Status."
+  },
+  {
+    "Abilities": "Intimidate",
+    "Ability Effect": "When this Pokémon comes into battle, Reduce 1 Point to the Strength of all foes in range. This effects will last for as long as this Pokémon is out."
+  },
+  {
+    "Abilities": "Intrepid Sword",
+    "Ability Effect": "Whenever this Pokémon enters battle, Increase 2 Points to its Strength. Outside of battle, this Pokémon can cut through any surface."
+  },
+  {
+    "Abilities": "Iron Barbs",
+    "Ability Effect": "Whenever this Pokémon is hit with a Non-Ranged Physical Attack, Roll 1 Dice of damage against the attacker."
+  },
+  {
+    "Abilities": "Iron Fist",
+    "Ability Effect": "Add 1 Dice to the Damage Pool of Fist Based moves."
+  },
+  {
+    "Abilities": "Justified",
+    "Ability Effect": "The first time this Pokémon is hit by a Dark-Type Attack or if it has witnessed something it considers unjust, Increase 1 Point to its Strength Attribute."
+  },
+  {
+    "Abilities": "Keen Eye",
+    "Ability Effect": "This Pokémon cannot have its Accuracy trait reduced by any means."
+  },
+  {
+    "Abilities": "Klutz",
+    "Ability Effect": "Held items won't have any effect on this Pokémon."
+  },
+  {
+    "Abilities": "Leaf Guard",
+    "Ability Effect": "If Sunny Weather is in effect, this Pokémon can't have any Status Conditions inflicted. Previously inflicted conditions remain."
+  },
+  {
+    "Abilities": "Levitate",
+    "Ability Effect": "Ground-Type moves and effects on the ground don't affect his Pokémon. If this Pokémon uses a move that binds it to the ground the effects are lost until it is free again."
+  },
+  {
+    "Abilities": "Libero",
+    "Ability Effect": "Whenever this Pokémon uses a move, first change its type to that of the move. If the move is an attack and deals damage, use the appropriate STAB."
+  },
+  {
+    "Abilities": "Light Metal",
+    "Ability Effect": "Moves with damage based on weight get their damage pool modified accordingly."
+  },
+  {
+    "Abilities": "Lightning Rod",
+    "Ability Effect": "If anyone uses an Electric-Type move with a Single target, it will be redirected to this Pokémon; it is immune to damage from them. The first time this Pokémon is hit by an Electric-Type move, Increase 1 Point to this Pokémon's Special."
+  },
+  {
+    "Abilities": "Limber",
+    "Ability Effect": "This Pokémon is not affected by the Paralysis Status."
+  },
+  {
+    "Abilities": "Liquid Ooze",
+    "Ability Effect": "If hit by a move that would absorb this Pokémon's vital energy (Leech Seed, Dream Eater, Drain Punch, etc.) it will instead deal that amount as damage."
+  },
+  {
+    "Abilities": "Liquid Voice",
+    "Ability Effect": "All Sound-Based Moves this Pokémon uses are considered Water-Type."
+  },
+  {
+    "Abilities": "Long Reach",
+    "Ability Effect": "All Attacks made by this Pokémon are considered Ranged attacks."
+  },
+  {
+    "Abilities": "Magic Bounce",
+    "Ability Effect": "All Support moves that target this Pokémon or its side of the battlefield will have its effects redirected into the foe's instead."
+  },
+  {
+    "Abilities": "Magic Guard",
+    "Ability Effect": "This Pokémon won't receive damage from Status Conditions, Recoil, Held Items or Weather Conditions."
+  },
+  {
+    "Abilities": "Magician",
+    "Ability Effect": "This Pokémon will steal the Held Item of a a Foe it just hit. For information on multiple Held Items see p. 79."
+  },
+  {
+    "Abilities": "Magma Armor",
+    "Ability Effect": "This Pokémon is not affected by the Frozen Status."
+  },
+  {
+    "Abilities": "Magnet Pull",
+    "Ability Effect": "All Steel-Type Pokémon on the field are Blocked."
+  },
+  {
+    "Abilities": "Marvel Scale",
+    "Ability Effect": "If this Pokémon has a Status Ailment, Increase 2 points to its Defense Attribute."
+  },
+  {
+    "Abilities": "Mega Launcher",
+    "Ability Effect": "Add 2 Dice to the Damage pool/Healing Pool of moves with the keyword \"\"Pulse\"\" and \"\"Aura\"\" on their name."
+  },
+  {
+    "Abilities": "Merciless",
+    "Ability Effect": "If the Foe is inflicted with Poison or Badly Poison, all of this Pokémon's Moves are considered to be Critical Hits."
+  },
+  {
+    "Abilities": "Mimicry",
+    "Ability Effect": "If there is a Terrain Move active (i.e. Electric Terrain, Psyichic Terrain etc.) Change this Pokémon’s main type to match the active Terrain. Restore its original main type if the terrain effects end."
+  },
+  {
+    "Abilities": "Minus",
+    "Ability Effect": "If an ally Pokémon on the field has the ability \"\"Plus\"\", Increase 2 Points to the Special Attribute of this Pokémon."
+  },
+  {
+    "Abilities": "Mirror Armor",
+    "Ability Effect": "All Attribute-reducing effects that target this Pokémon or its side of the battlefield will have its effects redirected into the foe’s instead."
+  },
+  {
+    "Abilities": "Misty Surge",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of the Move Misty Terrain. (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain)"
+  },
+  {
+    "Abilities": "Mold Breaker",
+    "Ability Effect": "If a foe Pokémon has a type, an immunity, or an ability that would prevent this Pokémon from attacking with a certain Move, ignore it."
+  },
+  {
+    "Abilities": "Moody",
+    "Ability Effect": "At the end of each round, reset Attribute modified by Moody, then Reduce 1 Point to a random Attribute and Increase 1 Point to another random Attribute."
+  },
+  {
+    "Abilities": "Motor Drive",
+    "Ability Effect": "The first time this Pokémon is hit by an Electric-Type move, Increase 1 Point to its Dexterity Attribute. This Pokémon doesn't receive damage from Electric-Type Moves."
+  },
+  {
+    "Abilities": "Moxie",
+    "Ability Effect": "If a foe faints because of an attack dealt by this Pokémon, Increase 1 Point to its Strength Attribute."
+  },
+  {
+    "Abilities": "Multiscale",
+    "Ability Effect": "If this Pokémon was at full Health, reduce 1 damage dealt by the attack."
+  },
+  {
+    "Abilities": "Multitype",
+    "Ability Effect": "This Pokémon can freely change its Type at any moment. This Ability can’t be copied, switched, changed, ignored, or negated in any way."
+  },
+  {
+    "Abilities": "Mummy",
+    "Ability Effect": "When this Pokémon gets hit with a Non-Ranged Physical Attack, the foe's ability is changed to Mummy."
+  },
+  {
+    "Abilities": "Natural Cure",
+    "Ability Effect": "At the end of the round, if this Pokémon has a Status Ailment, it rolls 3 Chance Dice to heal itself."
+  },
+  {
+    "Abilities": "Neuroforce",
+    "Ability Effect": "This Pokémon will deal 1 automatic Damage on any Move that is Super Effective against a foe."
+  },
+  {
+    "Abilities": "Neutralizing Gas",
+    "Ability Effect": "Foe Pokémon in range will have their Abilities effects negated as long as this Pokémon is out."
+  },
+  {
+    "Abilities": "No Guard",
+    "Ability Effect": "You can declare you won't make any Evasions Action at the start of the Round. If you do, roll all the moves of this Pokémon as if they had no reduced accuracy."
+  },
+  {
+    "Abilities": "Normalize",
+    "Ability Effect": "All the moves known by this Pokémon are considered Normal Type. Affected STAB, weaknesses immunities, and resistances. Add 1 Dice of Damage to all Normal Moves."
+  },
+  {
+    "Abilities": "Oblivious",
+    "Ability Effect": "This Pokémon is not affected by the Love Status. It is immune to the effects of moves that affect its feelings such as Taunt, Charm, Captivate etc."
+  },
+  {
+    "Abilities": "Overcoat",
+    "Ability Effect": "This Pokémon won't be damaged by weather conditions."
+  },
+  {
+    "Abilities": "Overgrow",
+    "Ability Effect": "When this Pokémon is low on HP, its Grass-Type Moves get dice added to their Damage Pool equal to the Pain Penalties. (e.g. -2 Pain Penalties will add 2 Dice to the damage pool)"
+  },
+  {
+    "Abilities": "Own Tempo",
+    "Ability Effect": "This Pokémon is not affected by the Confused Status."
+  },
+  {
+    "Abilities": "Parental Bond",
+    "Ability Effect": "All of the Damage Pools of this Pokémon get rolled twice. Choose the highest roll to deal damage to the foe."
+  },
+  {
+    "Abilities": "Pastel Veil",
+    "Ability Effect": "User and Allies in range are immune to Poison and Badly Poison. If the condition was inflicted before this Pokémon came out, it will remain."
+  },
+  {
+    "Abilities": "Pick Up",
+    "Ability Effect": "If this Pokémon was out of its Pokéball, at the end of the scene see what it found for you at Storyteller's discretion."
+  },
+  {
+    "Abilities": "Pickpocket",
+    "Ability Effect": "If this Pokémon is not holding an item, it will steal the held Item of the foe it just hit with a Non-Ranged Physical Attack. For information on multiple Held Items see p. 79."
+  },
+  {
+    "Abilities": "Pixilate",
+    "Ability Effect": "Normal-Type Attacks that the Pokémon uses wil deal damage as if they were Fairy-Type. Affecting STAB, weakness and resistance. Add 1 Dice of Damage to Fairy Moves."
+  },
+  {
+    "Abilities": "Plus",
+    "Ability Effect": "If an ally Pokémon has the ability \"\"Minus\"\", Increase 2 Points to the Special Attribute of this Pokémon."
+  },
+  {
+    "Abilities": "Poison Heal",
+    "Ability Effect": "If this Pokémon becomes poisoned or badly poisoned, it will Heal 1 HP at the end of each round instead of receiving damage. The Poison will be completely absorbed after 3 Rounds."
+  },
+  {
+    "Abilities": "Poison Point",
+    "Ability Effect": "If this Pokémon is hit by a Non-Ranged Physical Attack, Roll 3 Chance Dice to Poison the foe."
+  },
+  {
+    "Abilities": "Poison Touch",
+    "Ability Effect": "If this Pokémon hits its foe with a Non-Ranged Physical Attack, Roll 2 Chance Dice to Poison the foe."
+  },
+  {
+    "Abilities": "Power Construct",
+    "Ability Effect": "At the end of the Round, if this Pokémon has half or less of its HP, change its Form to the next one. When this Pokémon changes Form, remove Status Ailments & restore its full HP & Will. This Ability can’t be copied, switched, or changed."
+  },
+  {
+    "Abilities": "Power of Alchemy",
+    "Ability Effect": "For the next 24 Hours the Pokémon copies the ability of a fainted foe. Multiple Abilities may be copied this way, but only one may be active during combat. (Certain Abilities cannot be copied at Storyteller's discretion)"
+  },
+  {
+    "Abilities": "Power Spot",
+    "Ability Effect": "Increase 1 Extra Die to the Damage Pools from Moves of One Ally. This Effect does not stack on the same Ally if multiple Pokémon use this Ability."
+  },
+  {
+    "Abilities": "Prankster",
+    "Ability Effect": "Add Priority + 1 to all Support Moves of this Pokémon."
+  },
+  {
+    "Abilities": "Pressure",
+    "Ability Effect": "While this Pokémon is out, reduce the total Will Points of all foes by half, rounded down."
+  },
+  {
+    "Abilities": "Primordial Sea",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Typhoon Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate, The Pokémon with highest Will might keep the dominant weather)"
+  },
+  {
+    "Abilities": "Prism Armor",
+    "Ability Effect": "Negate all automatic Damage from any Super Effective Move dealt to this Pokémon."
+  },
+  {
+    "Abilities": "Propeller Tail",
+    "Ability Effect": "Ignore any Moves or Abilities that would redirect this Pokémon’s Moves into another target. (i.e. The Move “Follow Me”, the Ability “Lightining Rod” etc.)"
+  },
+  {
+    "Abilities": "Protean",
+    "Ability Effect": "Whenever this Pokémon uses a move, first change its type to that of the move. If the move is an attack and deals damage, use the appropriate STAB."
+  },
+  {
+    "Abilities": "Psychic Surge",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of the Move Psychic Terrain. (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain)"
+  },
+  {
+    "Abilities": "Punk Rock",
+    "Ability Effect": "Sound-Based Moves this Pokémon uses have 1 Extra Die to their Damage Pool. Sound-Based Moves deal 2 less Damage to this Pokémon."
+  },
+  {
+    "Abilities": "Pure Power",
+    "Ability Effect": "This Pokémon is able to lift up to double the weight it should be able to, according to the Strength Chart (p. 369) This ability stacks with moves like Strength."
+  },
+  {
+    "Abilities": "Queenly Majesty",
+    "Ability Effect": "Foes cannot use Priority Moves against this Pokémon."
+  },
+  {
+    "Abilities": "Quick Feet",
+    "Ability Effect": "While affected by any Status Condition, Increase 2 Points to this Pokémon's Dexterity Attribute. This Ability prevents the effects of the Paralysis condition."
+  },
+  {
+    "Abilities": "Rain Dish",
+    "Ability Effect": "If Rain weather is in effect, you may restore 1 HP to this Pokémon at the end of each Round."
+  },
+  {
+    "Abilities": "Rattled",
+    "Ability Effect": "The first time this Pokémon is hit by a Bug, Dark, or Ghost-Type Attack, Increase 1 Point to its Dexterity Attribute."
+  },
+  {
+    "Abilities": "Receiver",
+    "Ability Effect": "If an Ally is fainted in battle, this Pokémon may copy their ability for the next 24 hours. Only one Ability may be copied this way. (Certain Abilities cannot be copied at Storyteller's Discretion)"
+  },
+  {
+    "Abilities": "Reckless",
+    "Ability Effect": "When this Pokémon performs a move with Recoil, Add 2 Dice to the Damage Pool of that move."
+  },
+  {
+    "Abilities": "Refrigerate",
+    "Ability Effect": "Normal-Type Attacks that the Pokémon uses will deal damage as if they were Ice-Type, affecting STAB, weaknesses and resistances. Add 1 Dice of Damage to Ice moves."
+  },
+  {
+    "Abilities": "Regenerator",
+    "Ability Effect": "This Pokémon may Heal up to 4 Damage or up to 2 Lethal Damage on its own every day. The Pokémon must be out of combat to benefit from this effect."
+  },
+  {
+    "Abilities": "Ripen",
+    "Ability Effect": "Moves that use berries for added effects will have 2 Extra Dice on their Damage Pool (i.e. “Natural Gift” etc.) Increase the Healing properties of Berries at Storyteller’s discretion."
+  },
+  {
+    "Abilities": "Rivalry",
+    "Ability Effect": "If this Pokémon has a foe of the same gender, Increase 1 Point to its Strength Attribute. If the foe is the opposite gender, Reduce 1 Points to its Strength Attribute."
+  },
+  {
+    "Abilities": "RKS System",
+    "Ability Effect": "Change the Pokémon's Type to match the Disc on its Held Item slot. (ie. Electric Disc makes this Pokémon become an Electric Type)"
+  },
+  {
+    "Abilities": "Rock Head",
+    "Ability Effect": "This Pokémon will not receive damage from Recoil."
+  },
+  {
+    "Abilities": "Rough Skin",
+    "Ability Effect": "Whenever this Pokémon is hit with a Non-Ranged Physical Attack, Roll 1 Dice of damage against the attacker."
+  },
+  {
+    "Abilities": "Run Away",
+    "Ability Effect": "This Pokémon cannot be Blocked. It may also obtain bonus dice to escape from battle at Storyteller's discretion."
+  },
+  {
+    "Abilities": "Sand Force",
+    "Ability Effect": "If Sandstorm Weather is in effect when this Pokémon deals damage using Ground, Steel or Rock-Type attacks, add 1 Dice to the damage pool of that attack. The Pokémon is immune to damage from Sandstorm Weather."
+  },
+  {
+    "Abilities": "Sand Rush",
+    "Ability Effect": "If Sandstorm Weather is in effect, Increase 1 Point to the Dexterity Attribute of this Pokémon. The Pokémon is immune to damage from Sandstorm Weather."
+  },
+  {
+    "Abilities": "Sand Spit",
+    "Ability Effect": "If this Pokémon is hit with a Non-Ranged Physical attack, it starts the effects of Sandstorm Weather. The effect lasts 4 rounds."
+  },
+  {
+    "Abilities": "Sand Stream",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Sandstorm Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate the Pokémon with higher Special will keep the dominant weather)."
+  },
+  {
+    "Abilities": "Sand Veil",
+    "Ability Effect": "If Sandstorm Weather is in effect, increase 1 Point to the Evasion of this Pokémon. The Pokémon is immune to damage from Sandstorm Weather."
+  },
+  {
+    "Abilities": "Sap Sipper",
+    "Ability Effect": "The firs time this Pokémon is hit by a Grass-Type Attack, Increase 1 Point to its Strength Attribute instead of dealing damage. Grass-Type moves do not deal damage to this Pokémon."
+  },
+  {
+    "Abilities": "Schooling",
+    "Ability Effect": "Only Wishiwashi is able to have this Ability, When this Pokémon reaches 1 HP, wait for its allies to arrive, then replace your Pokémon for Wishiwashi School-Form at full HP. Reduce its happiness and Loyalty to zero. At the end of the battle restore Wishiwashi to its base form.(Healing/Fainting/Recalling prevents allies from arriving see p. 391 for table)"
+  },
+  {
+    "Abilities": "Scrappy",
+    "Ability Effect": "This Pokémon has the ability to hit Ghost-Type Pokémon with Normal-Type and Fighting-Type moves, dealing Regular Damage. Apply the right resistances or weaknesses to the foe if it has a secondary type."
+  },
+  {
+    "Abilities": "Screen Cleaner",
+    "Ability Effect": "When this Pokémon enters the field, remove any barries (i.e.Light Screen, Reflect etc.) on both the user and the foe’s side of the field."
+  },
+  {
+    "Abilities": "Serene Grace",
+    "Ability Effect": "Add 2 Extra Chance Dice to all effects done by this Pokémon (e.g. A move that has 3 Chance Dice to Flinch the foe, instead roll 5 Dice with this Pokémon)"
+  },
+  {
+    "Abilities": "Shadow Shield",
+    "Ability Effect": "If this Pokémon was at full health, Reduce by 2 the damage dealt by an attack. This effect cannot be ignored by Moves or Abilities."
+  },
+  {
+    "Abilities": "Shadow Tag",
+    "Ability Effect": "All foes become Blocked. Ghost-Type Pokémon are immune to this effect. Pokémon with the same ability are immune to this effect."
+  },
+  {
+    "Abilities": "Shed Skin",
+    "Ability Effect": "At the end of the round, if this Pokémon has a Status Condition, it rolls 3 Chance Dice to heal itself."
+  },
+  {
+    "Abilities": "Sheer Force",
+    "Ability Effect": "Whenever this Pokémon uses an attack with a chance dice for an additional effect, you may ignore those chance dice and add 2 Dice to its damage pool."
+  },
+  {
+    "Abilities": "Shell Armor",
+    "Ability Effect": "If a foe lands a Critical Hit on this Pokémon, it will not get its Extra Damage Dice for that attack."
+  },
+  {
+    "Abilities": "Shield Dust",
+    "Ability Effect": "If this Pokémon is hit by an attack with chance dice for an additional effect, it won't be affected by said effects."
+  },
+  {
+    "Abilities": "Shields Down",
+    "Ability Effect": "Only Minior can have this Ability. After reaching half or less of its HP in-battle, replace Minior by Minor (Core) at full HP. To restore it to its base form, the core must be set free and then recaptured after it returns a few days later."
+  },
+  {
+    "Abilities": "Simple",
+    "Ability Effect": "If this Pokémon gets an Attribute reduced, reduce 1 more Point. If this Pokémon gets and Attributed increased, increase 1 more Point."
+  },
+  {
+    "Abilities": "Skill Link",
+    "Ability Effect": "Add 2 Dice to the Accuracy roll of Successive Actions."
+  },
+  {
+    "Abilities": "Slow Start",
+    "Ability Effect": "During the first 5 Rounds of a battle, this Pokémon will always go last in the initiative order. After those 5 Rounds are over, Increase 2 points to its Strength and Dexterity Attributes, and it will always go first in the initiative order. This effect resets if the Pokémon is called out of combat."
+  },
+  {
+    "Abilities": "Slush Rush",
+    "Ability Effect": "If Hail Weather is in effect, increase 2 Points to the Dexterity Attribute of this Pokémon."
+  },
+  {
+    "Abilities": "Sniper",
+    "Ability Effect": "If this Pokémon lands a Critical Hit, it will get 3 Bonus Dice to the Damage Pool of its attack instead of the regular 2."
+  },
+  {
+    "Abilities": "Snow Cloak",
+    "Ability Effect": "If Hail weather is in effect, Increase 1 Point to the Evasion of this Pokémon. The Pokémon is immune to damage from Hail Weather."
+  },
+  {
+    "Abilities": "Snow Warning",
+    "Ability Effect": "When this Pokémon comes out, it automatically starts the effects of Hail Weather. The effects end when the Pokémon leaves the battle. (In case of a stalemate the Pokémon with highest Special will keep the dominant weather)"
+  },
+  {
+    "Abilities": "Solar Power",
+    "Ability Effect": "While Sunny Weather is in effect, Increase 2 Points to this Pokémon's Special Attribute and this Pokémon will receive 1 damage at the end of the round."
+  },
+  {
+    "Abilities": "Solid Rock",
+    "Ability Effect": "If this Pokémon is hit by a move dealing Super-Effective Damage, reduce 1 Damage to it."
+  },
+  {
+    "Abilities": "Soul-Heart",
+    "Ability Effect": "If a foe faints because of an attack dealt by this Pokémon, Increase 1 Point to its Special Attribute. Up to 3 points can be increased this way."
+  },
+  {
+    "Abilities": "Soundproof",
+    "Ability Effect": "This Pokémon is immune to the damage and effects of all Sound-based moves."
+  },
+  {
+    "Abilities": "Speed Boost",
+    "Ability Effect": "At the end of the first round, Increase 1 Point to this Pokémon's Dexterity Attribute."
+  },
+  {
+    "Abilities": "Stakeout",
+    "Ability Effect": "Whenever a Pokémon switches out, this Pokémon will inflict 1 additional Damage with its first successful attack to its replacement."
+  },
+  {
+    "Abilities": "Stall",
+    "Ability Effect": "This Pokémon always goes last in the initiative order."
+  },
+  {
+    "Abilities": "Stamina",
+    "Ability Effect": "The first time this Pokémon receives Damage in combat, increase 1 Point to its Defense and Special Defense."
+  },
+  {
+    "Abilities": "Stance Change",
+    "Ability Effect": "At the beginning of the round choose a stance. While in Sword Stance it can only use Attack moves. While in Shield Stance, it can only use Support Moves. Adjust its Attributes accordingly, Aegislash doesn't benefit from overtrained points when they exceed its current Limits."
+  },
+  {
+    "Abilities": "Static",
+    "Ability Effect": "Whenever this Pokémon is hit with a Non-Ranged Physical Attack, roll 3 Chance Dice to Paralyze its foe."
+  },
+  {
+    "Abilities": "Steadfast",
+    "Ability Effect": "The first time this Pokémon is affected by Flinch, Increase 1 Point to its Dexterity Attribute."
+  },
+  {
+    "Abilities": "Steam Engine",
+    "Ability Effect": "The first time this Pokémon is hit with a Fire or Water-Type Move. Increase 3 Points to its Dexterity Atribute."
+  },
+  {
+    "Abilities": "Steelworker",
+    "Ability Effect": "Steel-Type Attacks used by this Pokémon get 1 extra Dice to their Damage Pool."
+  },
+  {
+    "Abilities": "Stench",
+    "Ability Effect": "Reduces the chance of random Wild Pokémon encounters. Whenever this Pokémon hits its foe with a Physical Attack, it rolls 1 Chance Dice to Flinch the foe."
+  },
+  {
+    "Abilities": "Sticky Hold",
+    "Ability Effect": "This Pokémon's Held Item cannot be removed or swapped by moves or abilities."
+  },
+  {
+    "Abilities": "Storm Drain",
+    "Ability Effect": "If anyone uses a Water-Type move with a Single target, it will be redirected to this Pokémon; it is immune to damage from them. The first time this Pokémon is hit by a Water-Type move, Increase 1 Point to this Pokémon's Special."
+  },
+  {
+    "Abilities": "Strong Jaw",
+    "Ability Effect": "If this Pokémon uses a move with the Keywords Fang, Bite, or Crunch, add 1 Dice to the Damage Pool of that Move."
+  },
+  {
+    "Abilities": "Sturdy",
+    "Ability Effect": "The first time this Pokémon would faint due to a Damaging move, it will remain at 1 HP instead. Status Conditions and Self Inflicted damage will still cause it to faint. The Pokémon must rest for an hour before benefiting from Sturdy again."
+  },
+  {
+    "Abilities": "Suction Cups",
+    "Ability Effect": "The Pokémon is immune to effects that force switches."
+  },
+  {
+    "Abilities": "Super Luck",
+    "Ability Effect": "Add \"\"High Critical\"\" to all Attack moves of this Pokémon. If a move already has the High Critical property, this Pokémon will only need 3 Successes on the Accuracy roll to land a Critical instead of 4."
+  },
+  {
+    "Abilities": "Surge Surfer",
+    "Ability Effect": "If Electric Terrain is in effect, Increase 2 Points to this Pokémon's Dexterity Attribute."
+  },
+  {
+    "Abilities": "Swarm",
+    "Ability Effect": "When this Pokémon is low on HP, its Bug-Type Moves get dice added to their Damage Pool equal to their Pain Penalties. (e.g. -2 Pain Penalties will add 2 Dice to the damage pool)"
+  },
+  {
+    "Abilities": "Sweet Veil",
+    "Ability Effect": "The Pokémon and its allies are immune to the Sleep Status."
+  },
+  {
+    "Abilities": "Swift Swim",
+    "Ability Effect": "If Rain Weather is in effect, Increase 2 Points to this Pokémon's Dexterity Attribute."
+  },
+  {
+    "Abilities": "Symbiosis",
+    "Ability Effect": "If an ally loses or spends its Held Item, this Pokémon will immediately give the one it's holding to the ally."
+  },
+  {
+    "Abilities": "Synchronize",
+    "Ability Effect": "If a foe inflicts a Status Condition to this Pokémon, the same condition is inflicted onto the foe until it is immune to the effect."
+  },
+  {
+    "Abilities": "Tangled Feet",
+    "Ability Effect": "While this Pokémon is Confused, Add an extra \"\"Reduced Accuracy\"\" to all the foe's Moves which target this Pokémon."
+  },
+  {
+    "Abilities": "Tangling Hair",
+    "Ability Effect": "The first time an opponent hits this Pokémon with a Non-Ranged Physical Attack, reduce 1 Point to its Dexterity Attribute."
+  },
+  {
+    "Abilities": "Technician",
+    "Ability Effect": "Add 1 dice to the Damage pool of all Moves with Power 2 or less."
+  },
+  {
+    "Abilities": "Telepathy",
+    "Ability Effect": "This Pokémon won't receive damage from moves perd by its allies."
+  },
+  {
+    "Abilities": "Teravolt",
+    "Ability Effect": "If a Move, Item or Ability would prevent this Pokémon from targeting a foe or inflicting an effect, ignore it. (e.g. A Pokémon with Immunity can be Poisoned, A Pokémon with Levitate can be hit by Ground moves)."
+  },
+  {
+    "Abilities": "Thick Fat",
+    "Ability Effect": "Reduce by 1 the damage taken from Fire and Ice-Type moves."
+  },
+  {
+    "Abilities": "Tinted Lens",
+    "Ability Effect": "If a foe has a resistance against an attack perd by this Pokémon, make that attack deal Regular Damage instead. If the foe has a double resistance, make the attack as if the foe had only one."
+  },
+  {
+    "Abilities": "Torrent",
+    "Ability Effect": "When this Pokémon is low on HP, its Water-Type Moves get dice added to their Damage Pool equal to their Pain Penalties. (e.g. -2 Pain Penalties will add 2 Dice to the Damage Pool)"
+  },
+  {
+    "Abilities": "Tough Claws",
+    "Ability Effect": "Whenever this Pokémon uses a Non-Ranged Physical Attack, Add 1 Dice to its Damage Pool."
+  },
+  {
+    "Abilities": "Toxic Boost",
+    "Ability Effect": "If this Pokémon gets the Poison or Badly Poison Status, Increase 2 Points to its Strength Attribute."
+  },
+  {
+    "Abilities": "Trace",
+    "Ability Effect": "This Pokémon copies the ability of one random foe when it comes out. Effect ends if this Pokémon is removed from the battle. Flower Gift, Illusion, Imposter, Stance Change, Wonder Guard and Plot Device abilities won't be copied."
+  },
+  {
+    "Abilities": "Triage",
+    "Ability Effect": "Add Priority +1 to all Support moves of this Pokémon that Heal HP or cure Status Ailments."
+  },
+  {
+    "Abilities": "Truant",
+    "Ability Effect": "Roll this Pokémon's Loyalty every other turn. If the roll fails this Pokémon refuses to act. If it is successful it may act normally."
+  },
+  {
+    "Abilities": "Turboblaze",
+    "Ability Effect": "If a Move, Item or Ability would prevent this Pokémon from targeting a foe or inflicting an effect, ignore it. (e.g. A Pokémon with Immunity can be Poisoned, A Pokémon with Levitate can be hit by Ground moves)."
+  },
+  {
+    "Abilities": "Unaware",
+    "Ability Effect": "This Pokémon ignores any of the opponent's Attribute increases or decreases. Both when attacking and taking damage."
+  },
+  {
+    "Abilities": "Unburden",
+    "Ability Effect": "The first time this Pokémon loses or spends its held item and is no longer holding any, Increase 2 Points to its Dexterity Attribute."
+  },
+  {
+    "Abilities": "Unnerve",
+    "Ability Effect": "Opponents may not consume their held berry while this Pokémon is in the field."
+  },
+  {
+    "Abilities": "Victory Star",
+    "Ability Effect": "This Pokémon’s and All its allies damaging moves gain “Never Fail” while this Pokémon is on the field. This Ability can’t be switched or swapped."
+  },
+  {
+    "Abilities": "Vital Spirit",
+    "Ability Effect": "The Pokémon is immune to the Sleep Status."
+  },
+  {
+    "Abilities": "Volt Absorb",
+    "Ability Effect": "Whenever this Pokémon is hit by an Electric-Type Move, you may Heal 1 HP instead of receiving damage. Electric-Type Moves do not deal damage to this Pokémon."
+  },
+  {
+    "Abilities": "Wandering Spirit",
+    "Ability Effect": "If this Pokémon hits a Foe with a Non-Ranged Physical Attack, it switches its Ability with the Foe’s. Some Abilities (Flower Gift, Illusion, Imposter, Stance Change, Wonder Guard etc.) can’t be switched at Storyteller’s discretion."
+  },
+  {
+    "Abilities": "Water Absorb",
+    "Ability Effect": "Whenever this Pokémon is hit by a Water-Type Move, you may heal 1 HP instead of receiving damage. Water-Type moves do not deal damage to this Pokémon."
+  },
+  {
+    "Abilities": "Water Bubble",
+    "Ability Effect": "Fire-Type Moves deal 1 less damage to this Pokémon. This Pokémon is immune to Burn 1 and Burn 2 Status. Add 2 Dice to the Damage Pool of this Pokémon's Water-Type Moves."
+  },
+  {
+    "Abilities": "Water Compaction",
+    "Ability Effect": "The first time this Pokémon is hit by a Water-Type Move, Increase its Defense by 2 instead of receiving damage. Water-Type moves do not deal damage to this Pokémon."
+  },
+  {
+    "Abilities": "Water Veil",
+    "Ability Effect": "The Pokémon is immune to any of the Burn statuses."
+  },
+  {
+    "Abilities": "Weak Armor",
+    "Ability Effect": "The first time this Pokémon is hit by and Physical Attack, Increase 1 Point to its Dexterity Attribute and Reduce 1 Point to its Defense."
+  },
+  {
+    "Abilities": "White Smoke",
+    "Ability Effect": "Foes cannot reduce the Attributes of this Pokémon. However, it can still lower its own Attributes."
+  },
+  {
+    "Abilities": "Wimp Out",
+    "Ability Effect": "Whenever this Pokémon reaches half of its total HP, it will switch out to its Pokéball sending an Ally to take its place. It there is no Ally, the battle may end. This Ability's effect is not affected by Block."
+  },
+  {
+    "Abilities": "Wonder Guard",
+    "Ability Effect": "This Pokémon only receives damage from Status Conditions, and moves that deal Super Effective damage against it. This Pokémon is immune to damage from other sources like Weather Conditions and Entry Hazards."
+  },
+  {
+    "Abilities": "Wonder Skin",
+    "Ability Effect": "Reduce 2 Dice from the foe's Chance Dice against this Pokémon. (Example: The move Ember has 1 Chance Dice to Burn the foe, against this Pokémon it has zero Chance Dice)."
+  },
+  {
+    "Abilities": "Zen Mode",
+    "Ability Effect": "Only Darmanitan may have a Zen Mode form. When at half or less of its total HP, it changes to Zen Mode form at the start of its next turn. Switch it's Strength with its Special Attribute. Increase/reductions on them switch as well. Gain the Psychic Type. It will return to normal after recovering to full HP."
+  }
+]

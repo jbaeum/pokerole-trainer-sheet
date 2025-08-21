@@ -1,0 +1,93 @@
+[
+  {
+    "Rank": "Starter",
+
+    "Achievement 1": "Understand your Pokemon's Gestures",
+    "Achievement 2": "Train a Pokemon",
+    "Achievement 3": "Catch a second Pokemon",
+    "Achievement 4": "Win a Battle",
+    "Attribute Points": "0",
+    "Social Points": "0",
+    "Skill Points": "5",
+    "Skill Limit": "1",
+    "Rank up": "3"
+  },
+  {
+    "Rank": "Beginner",
+    
+    "Achievement 1": "Evolve a Pokemon",
+    "Achievement 2": "Win a Gym Badge",
+    "Achievement 3": "Increase Loyalty/Happiness",
+    "Achievement 4": "",
+    "Attribute Points": "2",
+    "Social Points": "2",
+    "Skill Points": "9",
+    "Skill Limit": "2",
+    "Rank up": "6"
+  },
+  {
+    "Rank": "Amateur",
+ 
+    "Achievement 1": "Win 8 Badges",
+    "Achievement 2": "Have a full team of 6 Pokemon",
+    "Achievement 3": "Defeat your Rival",
+    "Achievement 4": "",
+    "Attribute Points": "4",
+    "Social Points": "4",
+    "Skill Points": "12",
+    "Skill Limit": "3",
+    "Rank up": "12"
+  },
+  {
+    "Rank": "Ace",
+    
+    "Achievement 1": "Get a Pokemon-related Job",
+    "Achievement 2": "Clear Victory Road",
+    "Achievement 3": "Catch a Pro-Rank Pokemon",
+    "Achievement 4": "",
+    "Attribute Points": "6",
+    "Social Points": "6",
+    "Skill Points": "14",
+    "Skill Limit": "4",
+    "Rank up": "24"
+  },
+  {
+    "Rank": "Professional",
+   
+    "Achievement 1": "Catch every Pokemon",
+    "Achievement 2": "",
+    "Achievement 3": "",
+    "Achievement 4": "",
+    "Attribute Points": "8",
+    "Social Points": "8",
+    "Skill Points": "15",
+    "Skill Limit": "5",
+    "Rank up": "36"
+  },
+  {
+    "Rank": "Master",
+    
+    "Achievement 1": "Defeat your Region's Campion",
+    "Achievement 2": "",
+    "Achievement 3": "",
+    "Achievement 4": "",
+    "Attribute Points": "8",
+    "Social Points": "14",
+    "Skill Points": "15",
+    "Skill Limit": "5",
+    "Rank up": "48"
+  },
+  {
+    "Rank": "Champion",
+    
+    "Achievement 1": "You did it!",
+    "Achievement 2": "You're now the very best!",
+    "Achievement 3": "Like no one ever was!",
+    "Achievement 4": "*guitar riff*",
+    "Attribute Points": "14",
+    "Social Points": "8",
+    "Skill Points": "15",
+    "Skill Limit": "5",
+    "Rank up": "-"
+  }
+]
