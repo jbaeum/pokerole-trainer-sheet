@@ -433,7 +433,7 @@ function renderDetailTrainer() {
   ];
 
   // HP & Will automatisch berechnen
-  trainer.hpMax = (trainer.vitality || 0) + 2;
+  trainer.hpMax = (trainer.vitality || 0) + 4;
   trainer.willMax = (trainer.insight || 0) + 2;
 
   // Defaults für ältere Saves
