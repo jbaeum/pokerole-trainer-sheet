@@ -411,16 +411,16 @@ function renderDetailTrainer() {
   const trainerStatGroups = [
     {
       title: "Attributes",
-      stats: ["Strength", "Dexterity", "Vitality", "Special", "Insight"],
+      stats: ["Strength", "Dexterity", "Vitality",  "Insight"],
     },
     {
       title: "Social Attributes",
       stats: ["Tough", "Cool", "Beauty", "Clever", "Cute"],
     },
-    { title: "Skills: Fight", stats: ["Brawl", "Channel", "Evasion", "Clash"] },
+    { title: "Skills: Fight", stats: ["Brawl", "Throw", "Evasion", "Weapons"] },
     {
       title: "Skills: Contest",
-      stats: ["Allure", "Etiquette", "Intimidate", "Perform"],
+      stats: ["Empathy", "Etiquette", "Intimidate", "Perform"],
     },
     {
       title: "Skills: Survival",
