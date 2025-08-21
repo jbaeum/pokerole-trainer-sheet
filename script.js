@@ -163,7 +163,7 @@ function loadData() {
       false,
       false
     ],
-    "Ameteur": [
+    "Amateur": [
       false,
       false,
       false,
