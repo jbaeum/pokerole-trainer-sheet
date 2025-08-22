@@ -221,7 +221,7 @@ function getSpriteUrlFromName(name) {
     .toLowerCase()
     .replace(/[()]/g, "")
     .trim()
-    .replace("x (mega)", "(mega) x")
+    .replace("x mega", "mega x")
     .replace("y (mega)", "(mega) y")
     .replace(/\./g, "")
     .replace(/ /g, "-")
