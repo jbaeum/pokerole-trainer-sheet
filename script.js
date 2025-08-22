@@ -222,7 +222,7 @@ function getSpriteUrlFromName(name) {
     .replace(/[()]/g, "")
     .trim()
     .replace("x mega", "mega x")
-    .replace("y (mega)", "(mega) y")
+    .replace("y mega", "mega y")
     .replace(/\./g, "")
     .replace(/ /g, "-")
     .replace(/'/g, "")}.png`;
