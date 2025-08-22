@@ -130,8 +130,7 @@ main#detail-view {
 }
 
 /* ===== Sidebar Karten ===== */
-.trainer-summary,
-.pokemon-summary {
+.trainer-summary {
   border-radius: 8px;
   margin-bottom: 8px;
   padding: 8px;
@@ -140,6 +139,18 @@ main#detail-view {
   gap: 8px;
   cursor: pointer;
 }
+
+.pokemon-summary {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+
 .trainer-summary:hover,
 .pokemon-summary:hover {
   background: rgba(255, 255, 255, 0.15);

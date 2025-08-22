@@ -1361,7 +1361,7 @@ const statMatrix = `
   <div class="form-row"><label for="pk-status"><strong>Condition:</strong></label><select id="pk-status">
     <option value="" ${
       p.statusEffect === "" ? "selected" : ""
-    }>—Kein Status—</option>
+    }>No condition</option>
     ${statusOptions}
   </select>
   </div>
