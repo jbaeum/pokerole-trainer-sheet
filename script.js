@@ -219,8 +219,13 @@ function getSpriteUrlFromName(name) {
   if (name === "-") return "";
   return `https://img.pokemondb.net/sprites/home/normal/${name
     .toLowerCase()
+    .replace(/[()]/g, "")
+    .trim()
+    .replace("x (mega)", "(mega) x")
+    .replace("y (mega)", "(mega) y")
+    .replace(/\./g, "")
     .replace(/ /g, "-")
-    .replace(/[()]/g, "")}.png`;
+    .replace(/'/g, "")}.png`;
 }
 
 function getTitleForIcon(name) {
