@@ -144,6 +144,7 @@ main#detail-view {
 .pokemon-summary:hover {
   background: rgba(255, 255, 255, 0.15);
 }
+
 .avatar {
   width: 48px;
   height: 48px;
@@ -527,6 +528,15 @@ button:hover {
   gap: 10px;
 }
 
+.stat-matrix-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.trainer-detail .fieldset-col{
+  flex: 1;
+}
+
 .trainer-detail label {
   min-width: 75px;
 }
@@ -650,6 +660,11 @@ button:hover {
 
 .pokemon-detail .fieldset-col{
   flex: 1;
+}
+
+.stat-matrix-flex {
+  display: flex;
+  gap: 24px;
 }
 
 .pokemon-detail label {

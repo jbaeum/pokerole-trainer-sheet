@@ -313,10 +313,10 @@ function renderSidebar() {
     <div class="avatar">${imgHtml}</div>
     <div class="trainer-info">
       <h3>${trainer.name}</h3>
-      <p>Rang: ${trainer.rank}</p>
-      <p>HP: ${trainer.hp}/${trainer.hpMax}</p>
-      <p>Will: ${trainer.will}/${trainer.willMax}</p>
-      <p>Pokecash: ${trainer.pokecash} ₽</p>
+      <div class="trainer-rank"><strong>Rank:</strong> ${trainer.rank}</div>
+      <div class="trainer-hp"><strong>HP:</strong> ${trainer.hp}/${trainer.hpMax}</div>
+      <div class="trainer-will"><strong>Will:</strong> ${trainer.will}/${trainer.willMax}</div>
+      <div class="trainer-cash"><strong>Pokecash:</strong> ${trainer.pokecash} ₽</div>
     </div>
   `;
 
@@ -327,7 +327,7 @@ function renderSidebar() {
 
   sb.appendChild(tDiv);
   const addBtn = document.createElement("button");
-  addBtn.textContent = "+ Pokémon hinzufügen";
+  addBtn.textContent = "+ Add Pokémon";
   addBtn.style.width = "100%";
   addBtn.onclick = () => {
     if (trainer.pokemon.length >= 6) return alert("Max 6 Pokémon");
@@ -360,7 +360,7 @@ function renderSidebar() {
               .filter(Boolean)
               .map((m) => `<div class="poke-atk">${m}</div>`)
               .join("")
-          : "<em>Keine Attacken</em>"
+          : "<em>No Attacks</em>"
       }</div>
       <div class="pokemon-status">${renderStatusBadge(p)}</div> ${
       p.heldItem
@@ -473,32 +473,50 @@ function renderDetailTrainer() {
     .join("");
 
   // Stats HTML
-  const statMatrix = trainerStatGroups
-    .map((group) => {
-      const rows = group.stats
-        .map((st) => {
-          const key = st.toLowerCase();
-          const current = trainer[key] ?? 0;
-          const maxVal = 5;
-          let btns = "";
-          for (let v = 1; v <= maxVal; v++) {
-            let cls = "stat-btn";
-            if (v <= current) cls += " active";
-            if (v <= 0) cls += " min";
-            btns += `<div class="${cls}" data-stat="${key}" data-val="${v}"></div>`;
-          }
-          return `<div class="stat-row">
-                <span class="stat-label">${st}</span>
-                <div class="stat-btn-group">${btns}</div>
-              </div>`;
-        })
-        .join("");
-      return `<div class="stat-group">
-              <h4>${group.title}</h4>
-              <div class="stats-boxes">${rows || "<em>No stats</em>"}</div>
-            </div>`;
-    })
-    .join("");
+  // Gruppen für Spalte 1 und 2 trennen
+const col1Groups = trainerStatGroups.filter(g =>
+  g.title === "Attributes" || g.title === "Social Attributes"
+);
+const col2Groups = trainerStatGroups.filter(g =>
+  g.title !== "Attributes" && g.title !== "Social Attributes"
+);
+
+// Generiere das Gruppen-HTML jeweils wie gehabt:
+function renderGroups(groups) {
+  return groups.map(group => {
+    const rows = group.stats.map(st => {
+      const key = st.toLowerCase();
+      const current = trainer[key] ?? 0;
+      const maxVal = 5;
+      let btns = "";
+      for (let v = 1; v <= maxVal; v++) {
+        let cls = "stat-btn";
+        if (v <= current) cls += " active";
+        if (v <= 0) cls += " min";
+        btns += `<div class="${cls}" data-stat="${key}" data-val="${v}"></div>`;
+      }
+      return `<div class="stat-row">
+        <span class="stat-label">${st}</span>
+        <div class="stat-btn-group">${btns}</div>
+      </div>`;
+    }).join("");
+    return `<div class="stat-group">
+      <h4>${group.title}</h4>
+      <div class="stats-boxes">${rows || "<em>No stats</em>"}</div>
+    </div>`;
+  }).join("");
+}
+
+// Endgültiges statMatrix-HTML:
+const statMatrix = `
+  <div class="fieldset-col">
+    ${renderGroups(col1Groups)}
+  </div>
+  <div class="fieldset-col">
+    ${renderGroups(col2Groups)}
+  </div>
+`;
+
 
   // Backpack Items
   const potions = [
@@ -612,8 +630,8 @@ const potionListHTML = potionStacks.map((stack, idx) => {
       <span> Menge: ${stack.quantity} </span>
       <span> Verwendet: ${stack.used} / ${maxUses} </span>
       <input type="number" min="1" step="1" value="1" data-index="${idx}" class="use-count-input" style="width: 50px; margin-left: 10px;">
-      <button data-index="${idx}" class="use-potion-btn">Benutzen</button>
-      <button data-index="${idx}" class="remove-potion-btn">Entfernen</button>
+      <button data-index="${idx}" class="use-potion-btn">Use</button>
+      <button data-index="${idx}" class="remove-potion-btn">Remove</button>
     </div>
   `;
 }).join("");
@@ -623,7 +641,7 @@ const otherListHTML = otherItems
     <div class="item-row">
       <label>${item.name}</label>
       <input type="number" min="0" step="1" data-item="${item.name}" value="${item.quantity}" class="item-qty-input">
-      <button type="button" data-item="${item.name}" class="remove-item-btn">Entfernen</button>
+      <button type="button" data-item="${item.name}" class="remove-item-btn">Remove</button>
     </div>
   `)
   .join("");
@@ -656,12 +674,12 @@ const otherListHTML = otherItems
       ${
         otherListHTML
           ? `<div class="bag-items">${otherListHTML}</div>`
-          : "<em>Keine Items im Backpack</em>"
+          : "<em>No Items in backpack</em>"
       }
       <div class="form-row add-item-row">
         <select id="add-item-select">${addItemOptions}</select>
         <input type="number" id="add-item-qty" min="1" step="1" value="1" style="width:50px;">
-        <button id="add-item-btn" type="button">Item hinzufügen</button>
+        <button id="add-item-btn" type="button">Add Item</button>
       </div>
     </fieldset>
   </fieldset>
@@ -670,14 +688,16 @@ const otherListHTML = otherItems
   // Haupt-HTML zusammenbauen
   document.getElementById("detail-view").innerHTML = `
     <div class="detail-content trainer-detail">
-      <h2>Trainer-Profil</h2>
+      <h2>Trainer Profile</h2>
 
-      <fieldset class="form-section">
-        <legend>Allgemeines</legend>
+      <fieldset class="form-section trainer-detail">
+        <legend>Genral</legend>
+        <div class="form-row">
+        <div class="fieldset-col">
         <div class="form-row"><label for="t-name"><b>Name:</b></label>
           <input type="text" id="t-name" value="${trainer.name ?? ""}">
         </div>
-        <div class="form-row"><label for="t-rank"><b>Rang:</b></label>
+        <div class="form-row"><label for="t-rank"><b>Rank:</b></label>
           <select id="t-rank">${moveRanks
             .map(
               (r) =>
@@ -685,7 +705,7 @@ const otherListHTML = otherItems
             )
             .join("")}</select>
         </div>
-        <div class="form-row"><label for="t-age"><b>Alter:</b></label>
+        <div class="form-row"><label for="t-age"><b>Age:</b></label>
           <select id="t-age">${ageGroups
             .map(
               (a) =>
@@ -694,12 +714,11 @@ const otherListHTML = otherItems
                 }>${a}</option>`
             )
             .join("")}</select>
-        </div>
+        </div></div>
         
-      </fieldset>
-
-      <fieldset class="form-section">
-        <legend>Profilwerte</legend>
+    <div class="fieldset-col">
+   
+        
         <div class="form-row">
           <label for="t-nature"><b>Nature:</b></label>
           <select id="t-nature">${natureOptions}</select>
@@ -716,12 +735,14 @@ const otherListHTML = otherItems
     trainer.will
   }" style="width:3.5em;">
   / ${trainer.willMax}
-</div>
+</div></div>
       </fieldset>
 
       <fieldset class="form-section">
-        <legend>Skills & Attributes</legend>
+        <legend>Attributes & Skills</legend>
+        <div class="stat-matrix-flex">
         ${statMatrix}
+        </div>
       </fieldset>
 
       <fieldset class="form-section">
@@ -732,7 +753,7 @@ const otherListHTML = otherItems
       ${backpackHtml}
 
       <fieldset class="form-section">
-        <legend>Sonstiges</legend>
+        <legend>Misc.</legend>
         <div class="form-row">
           ${
             trainer.image
@@ -870,7 +891,7 @@ const otherListHTML = otherItems
   const qtyInput = document.querySelector("#add-item-qty");
   const itemName = itemSelect.value;
   let qty = parseInt(qtyInput.value);
-  if (!itemName) return alert("Bitte ein Item auswählen.");
+  if (!itemName) return alert("Please select an Item.");
   if (isNaN(qty) || qty < 1) qty = 1;
   if (!trainer.backpack) trainer.backpack = [];
 
@@ -995,7 +1016,7 @@ function renderDetailPokemon(i) {
 `;
 
   const itemOptions = [
-    `<option value="" ${!currentItem ? "selected" : ""}>Kein Item</option>`,
+    `<option value="" ${!currentItem ? "selected" : ""}>No Item</option>`,
     ...allItemsSorted.map(
       (item) =>
         `<option value="${item}" ${
@@ -1022,13 +1043,13 @@ function renderDetailPokemon(i) {
     if (["fast", "medium", "slow"].includes(lower)) {
       evoText =
         victories !== null
-          ? `Entwickelt sich nach ${victories} Siegen (${evoTime}).`
-          : `Entwickelt sich (${evoTime}).`;
+          ? `Evolves after ${victories} victories (${evoTime}).`
+          : `Evolves (${evoTime}).`;
     } else {
-      evoText = `Entwickelt sich bei Bedingung: ${evoTime}.`;
+      evoText = `Develops under condition: ${evoTime}.`;
     }
   } else {
-    evoText = "<em>Keine Entwicklungsinformation vorhanden</em>";
+    evoText = "<em>No evolution data available</em>";
   }
 
   // Status Optionen dynamisch basierend auf statusEffectsInfo
@@ -1110,17 +1131,31 @@ function renderDetailPokemon(i) {
       }</option>`
   );
   // --- Stats generieren ---
-  const statMatrix = statGroups
-    .map((group) => {
+  const leftColGroups = ["Attributes", "Social Attributes"];
+const [groupsLeft, groupsRight] = statGroups.reduce(
+  ([left, right], group) => {
+    if (leftColGroups.includes(group.title)) {
+      left.push(group);
+    } else {
+      right.push(group);
+    }
+    return [left, right];
+  },
+  [[], []]
+);
+
+function renderGroups(groups) {
+  return groups
+    .map(group => {
       const rows = group.stats
-        .map((st) => {
+        .map(st => {
           const key = st.toLowerCase();
           const pkMax = [
             "strength",
             "dexterity",
             "vitality",
             "special",
-            "insight",
+            "insight"
           ].includes(key)
             ? +pkData[capitalize(st) + "Max"] || 5
             : 5;
@@ -1132,16 +1167,30 @@ function renderDetailPokemon(i) {
             if (v <= 0) cls += " min";
             btns += `<div class="${cls}" data-stat="${key}" data-val="${v}"></div>`;
           }
-          return `<div class="stat-row"><span class="stat-label">${st}</span><div class="stat-btn-group">${btns}</div></div>`;
+          return `<div class="stat-row">
+            <span class="stat-label">${st}</span>
+            <div class="stat-btn-group">${btns}</div>
+          </div>`;
         })
         .join("");
-      return `<div class="stat-group"><h4>${
-        group.title
-      }</h4><div class="stats-boxes">${
-        rows || "<em>No stats</em>"
-      }</div></div>`;
+      return `<div class="stat-group">
+        <h4>${group.title}</h4>
+        <div class="stats-boxes">${rows || "<em>No stats</em>"}</div>
+      </div>`;
     })
     .join("");
+}
+const statMatrix = `
+  <div class="detail-flex">
+    <div class="fieldset-col">
+      ${renderGroups(groupsLeft)}
+    </div>
+    <div class="fieldset-col">
+      ${renderGroups(groupsRight)}
+    </div>
+  </div>
+`;
+
 
   const allowedMoves = getAllowedMovesByRank(p, p.currentRank);
 
@@ -1185,7 +1234,7 @@ function renderDetailPokemon(i) {
   })
       .join("");
     const select = `<select class="attack-select" data-slot="${slot}">
-      <option value="" ${!sel ? "selected" : ""}>--leer--</option>
+      <option value="" ${!sel ? "selected" : ""}>No selection</option>
       ${renderMoveOptions(allowedMoves, p, sel)}
     </select>`;
     if (!sel) return `<div class="attack-card bg-Normal">${select}</div>`;
@@ -1201,7 +1250,7 @@ function renderDetailPokemon(i) {
       dmg !== null ? " [" + dmg + "]" : ""
     }</div>
       <div class="attack-info-row"><b>Effect:</b> ${md.Effect || "-"}</div>
-      <div class="attack-info-row"><b>Symbole:</b> ${iconHtml}</div>
+      <div class="attack-info-row"><b>Symbols:</b> ${iconHtml}</div>
     </div></div>`;
   }).join("");
 
@@ -1211,7 +1260,7 @@ function renderDetailPokemon(i) {
     .filter((a) => a && /Strength|Special/i.test(a.Damage || ""));
 
   const clashAttackOptions = [
-    `<option value="">– Keine –</option>`,
+    `<option value="">– No selection –</option>`,
     ...clashEligibleAttacks.map(
       (a) =>
         `<option value="${a["Move name"]}" ${
@@ -1222,7 +1271,7 @@ function renderDetailPokemon(i) {
 
   const clashSelectHtml = `
     <div style="margin-top:16px;">
-      <label><b>Clash-Attacke:</b>
+      <label><b>Clash Attacks:</b>
         <select id="pk-clash-attack">${clashAttackOptions}</select>
       </label>
       <span id="clash-value" style="margin-left:12px;"></span>
@@ -1298,8 +1347,17 @@ function renderDetailPokemon(i) {
 </fieldset>
 
     
-    <fieldset class="form-section">
-    <legend>Status</legend>
+    <fieldset class="form-section pokemon-detail">
+    <legend>Type Effectiveness & Status</legend>
+    <div class="form-row">
+  <div class="fieldset-col">
+  <div class="form-row"><span><strong>Weak:</strong></span> ${weak}</div>
+    <div class="form-row"><span><strong>Resist:</strong></span> ${resist}</div>
+    <div class="form-row"><span><strong>Immune:</strong></span> ${immune}</div>
+  </div>
+<div class="fieldset-col">
+
+ 
   <div class="form-row"><label for="pk-status"><strong>Condition:</strong></label><select id="pk-status">
     <option value="" ${
       p.statusEffect === "" ? "selected" : ""
@@ -1312,26 +1370,9 @@ function renderDetailPokemon(i) {
   <input type="number" id="pk-status-level" min="1" max="${maxStatusLevel}" value="${statusLevelValue}">
 </div>
 </fieldset>
-
-
-
 <fieldset class="form-section">
-<legend>Initiative & Evasion</legend>
-<div class="pokemon-derived-stats">
-  <div class="form-row"><span><strong>Initiative:</strong></span>${initiative}</div>
-  
-  <div class="form-row"><span><strong>Evasion:</strong></span> ${evasion}
-</div></div>
-</fieldset>
-<fieldset class="form-section">
-<legend>Type Effectiveness</legend>
-    <div class="form-row"><span><strong>Weak:</strong></span> ${weak}</div>
-    <div class="form-row"><span><strong>Resist:</strong></span> ${resist}</div>
-    <div class="form-row"><span><strong>Immune:</strong></span> ${immune}</div>    
-    </fieldset>
-<fieldset class="form-section">
-
 <legend>Misc.</legend>
+<div class="form-row"><div class="fieldset-col">
 <div class="form-row">
     <label for="pk-defense-mod"><strong>Defense:</strong></label>
 <input type="number" id="pk-defense-mod" value="${
@@ -1342,7 +1383,7 @@ function renderDetailPokemon(i) {
   }</b></span>
   
  </div>
-<div class="form-row"><label><strong>Sp. Def.:</strong></label>
+<div class="form-row"><label for="pk-spdefense-mod"><strong>Sp. Def.:</strong></label>
 <input type="number" id="pk-spdefense-mod" value="${
     p.spDefenseMod || 0
   }" style="width:3em;">
@@ -1354,7 +1395,13 @@ function renderDetailPokemon(i) {
   <input type="text" id="pk-victories" value="${victoriesCount}" maxlength="24" style="width: 10em;">
 
 </div>
-</fieldset>
+</div><div class="fieldset-col">
+<div class="form-row"><span><strong>Initiative:</strong></span>${initiative}</div>
+  <div class="form-row"><span><strong>Evasion:</strong></span> ${evasion}
+</div>
+       
+    </fieldset>
+
 <fieldset class="form-section">
         <legend>Skills & Attributes</legend>
     <div class="detail-column">${statMatrix}</div>
@@ -1407,11 +1454,11 @@ function renderDetailPokemon(i) {
 
     ${actionCounterHtml}
 
-    <h3>Attacken</h3>
+    <h3>Attacks</h3>
     ${attackCards}
     ${clashSelectHtml}
 
-  <button class="remove-pokemon-btn" id="remove-pokemon-btn">Pokémon entfernen</button>
+  <button class="remove-pokemon-btn" id="remove-pokemon-btn">Remove Pokémon</button>
   </div>`;
 
   const d = document.querySelector(".detail-content");
@@ -1431,7 +1478,7 @@ function renderDetailPokemon(i) {
   const remBtn = document.getElementById("remove-pokemon-btn");
   if (remBtn)
     remBtn.onclick = () => {
-      if (confirm(`"${p.nickname || p.name}" wirklich entfernen?`)) {
+      if (confirm(`"Are you sure you want to remove ${p.nickname || p.name}"?`)) {
         trainer.pokemon.splice(i, 1);
         saveData();
         renderSidebar();
@@ -1693,15 +1740,15 @@ document.getElementById("import-trainer-file").onchange = function (evt) {
       const loaded = JSON.parse(e.target.result);
       // Optional: primitive schema check
       if (!loaded || !Array.isArray(loaded.pokemon))
-        throw new Error("Ungültiges Format");
+        throw new Error("Wrong Format");
       trainer = loaded;
       saveData();
       renderSidebar();
       // Falls du eine Hauptansicht renderst, dort auch aktualisieren
       renderDetailTrainer?.();
-      alert("Trainer geladen!");
+      alert("Trainer loaded!");
     } catch (e) {
-      alert("Fehler beim Import: " + e.message);
+      alert("Error while importing: " + e.message);
     }
   };
   reader.readAsText(file);
