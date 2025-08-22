@@ -1403,7 +1403,7 @@ const statMatrix = `
     </fieldset>
 
 <fieldset class="form-section">
-        <legend>Skills & Attributes</legend>
+        <legend>Attributes & Skills</legend>
     <div class="detail-column">${statMatrix}</div>
       </fieldset>
 <fieldset class="form-section">
